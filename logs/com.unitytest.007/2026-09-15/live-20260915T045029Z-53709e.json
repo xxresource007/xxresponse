@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "live-20260915T045029Z-53709e",
+  "createdAt": "2026-09-15T04:50:37.306309Z",
+  "updatedAt": "2026-09-15T04:50:38.148309Z",
+  "app": {
+    "appName": "Easy Bingo",
+    "packageName": "com.unitytest.007",
+    "version": "1.0.7",
+    "buildNumber": "simulated",
+    "buildType": "dev"
+  },
+  "device": {
+    "platform": "ios",
+    "model": "iPhone Simulator",
+    "osVersion": "iOS 26.3",
+    "machine": "arm64",
+    "isPhysicalDevice": false
+  },
+  "networkAtStartup": {
+    "types": [
+      "wifi"
+    ],
+    "primaryType": "wifi",
+    "capturedAt": "2026-09-15T04:50:37.306309Z"
+  },
+  "networkAddress": {
+    "localAddresses": [
+      {
+        "interface": "en0",
+        "address": "192.168.1.42",
+        "version": "ipv4",
+        "isLinkLocal": false
+      }
+    ],
+    "publicIp": "203.0.113.42",
+    "location": {
+      "city": "Test City",
+      "region": "Test Region",
+      "country_code": "US",
+      "timezone": "America/Los_Angeles"
+    },
+    "lookupDurationMs": 146
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "type": "session_start",
+      "level": "info",
+      "recordedAt": "2026-09-15T04:50:37.306309Z"
+    },
+    {
+      "sequence": 2,
+      "type": "step_end",
+      "level": "info",
+      "recordedAt": "2026-09-15T04:50:38.148309Z",
+      "startedAt": "2026-09-15T04:50:37.306309Z",
+      "finishedAt": "2026-09-15T04:50:38.148309Z",
+      "durationMs": 842,
+      "parameters": {
+        "step": "app_startup",
+        "entrypoint": "main",
+        "startupMode": "cold"
+      },
+      "result": {
+        "ok": true
+      }
+    },
+    {
+      "sequence": 3,
+      "type": "url_probe",
+      "level": "info",
+      "recordedAt": "2026-09-15T04:50:38.148309Z",
+      "durationMs": 318,
+      "parameters": {
+        "name": "dispatch",
+        "url": "https://dispatch.example.test/config"
+      },
+      "result": {
+        "reachable": true,
+        "transportReachable": true,
+        "statusCode": 200,
+        "durationMs": 318
+      }
+    },
+    {
+      "sequence": 4,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T04:50:38.148309Z",
+      "message": "live simulated diagnostic log upload",
+      "parameters": {
+        "source": "manual-test"
+      }
+    }
+  ]
+}
