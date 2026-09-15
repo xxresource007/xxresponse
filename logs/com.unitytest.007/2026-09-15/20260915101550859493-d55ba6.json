@@ -1,0 +1,4446 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "20260915101550859493-d55ba6",
+  "createdAt": "2026-09-15T10:15:50.859493Z",
+  "updatedAt": "2026-09-15T10:16:10.893127Z",
+  "app": {
+    "appName": "Easy Win Fun",
+    "packageName": "com.unitytest.007",
+    "version": "1.0.8",
+    "buildNumber": "15",
+    "buildSignature": ""
+  },
+  "device": {
+    "platform": "ios",
+    "model": "iPhone",
+    "localizedModel": "iPhone",
+    "systemName": "iOS",
+    "osVersion": "16.3.1",
+    "machine": "iPhone14,7",
+    "isPhysicalDevice": true
+  },
+  "networkAtStartup": {
+    "types": [
+      "wifi",
+      "other"
+    ],
+    "primaryType": "wifi",
+    "capturedAt": "2026-09-15T10:15:50.932814Z"
+  },
+  "upload": {
+    "requested": true,
+    "enabled": true,
+    "repository": "xxresource007/xxresponse",
+    "branch": "main",
+    "directory": "logs"
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "type": "session_start",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:50.890243Z",
+      "startedAt": "2026-09-15T10:15:50.859493Z",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.876687Z"
+      },
+      "parameters": {
+        "uploadRequested": true,
+        "uploadEnabled": true,
+        "githubRepository": "xxresource007/xxresponse",
+        "githubDirectory": "logs"
+      }
+    },
+    {
+      "sequence": 2,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:50.894645Z",
+      "message": "[PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.876687Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 3,
+      "type": "step_start",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:50.899251Z",
+      "startedAt": "2026-09-15T10:15:50.899195Z",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.876687Z"
+      },
+      "parameters": {
+        "step": "app_startup",
+        "entrypoint": "main",
+        "startupMode": "cold"
+      }
+    },
+    {
+      "sequence": 4,
+      "type": "exception",
+      "level": "error",
+      "recordedAt": "2026-09-15T10:15:50.911612Z",
+      "message": "Zone mismatch.\nThe Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.\nIt is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.\nTo make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`).",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.876687Z"
+      },
+      "parameters": {
+        "context": "during runApp",
+        "library": "Flutter framework"
+      },
+      "error": {
+        "type": "FlutterError",
+        "message": "Zone mismatch.\nThe Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.\nIt is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.\nTo make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`).",
+        "stackTrace": "#0      BindingBase.debugCheckZone.<anonymous closure> (package:flutter/src/foundation/binding.dart:519:31)\n#1      BindingBase.debugCheckZone (package:flutter/src/foundation/binding.dart:525:6)\n#2      _runWidget (package:flutter/src/widgets/binding.dart:1574:18)\n#3      runApp (package:flutter/src/widgets/binding.dart:1510:3)\n#4      main.<anonymous closure> (package:easy_win_fun/main.dart:77:5)\n#5      XXResponse._runGuarded.<anonymous closure> (package:xxresponse/src/xxresponse.dart:234:29)\n#6      _rootRun (dart:async/zone.dart:1525:13)\n#7      _CustomZone.run (dart:async/zone.dart:1422:19)\n#8      _runZoned (dart:async/zone.dart:2034:6)\n#9      runZonedGuarded (dart:async/zone.dart:2020:12)\n#10     XXResponse._runGuarded (package:xxresponse/src/xxresponse.dart:233:20)\n#11     XXResponse.runGuarded (package:xxresponse/src/xxresponse.dart:88:21)\n#12     main (package:easy_win_fun/main.dart:42:20)\n<asynchronous suspension>\n"
+      }
+    },
+    {
+      "sequence": 5,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:50.925167Z",
+      "message": "Network authorization warmup scheduled after first frame",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.876687Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 6,
+      "type": "step_end",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.142858Z",
+      "startedAt": "2026-09-15T10:15:50.899195Z",
+      "finishedAt": "2026-09-15T10:15:51.142790Z",
+      "durationMs": 243,
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "step": "app_startup",
+        "entrypoint": "main",
+        "startupMode": "cold"
+      }
+    },
+    {
+      "sequence": 7,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.441177Z",
+      "message": "Network authorization warmup start",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 8,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.447358Z",
+      "message": "Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789467351446",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 9,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.558551Z",
+      "message": "Network authorization probe end attempt=1 statusCode=200 success=true",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 10,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.563259Z",
+      "message": "Network authorization warmup ready attempt=1",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 11,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.572717Z",
+      "message": "[PerformanceMonitor] 🏁 [Firebase初始化开始] (+677ms from start)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 12,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.585163Z",
+      "message": "[PerformanceMonitor] 🏁 [Firebase初始化完成] (+690ms from start) (+13ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 13,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.585346Z",
+      "message": "[PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+691ms from start) (+0ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 14,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.586916Z",
+      "message": "[WEB LOG] [print] 112312312312",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 15,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.587165Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig setConfigSettings start",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 16,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:51.590965Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig fetchAndActivate start",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 17,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.903893Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig fetchAndActivate end: true",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 18,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.907985Z",
+      "message": "[WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 19,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.912368Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig all params count = 10",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 20,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.912683Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param adjustEvent_a = kp1kfi (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 21,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.912837Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param adjustStartEvent = ukwyl1 (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 22,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.912965Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param adjust$1=[REDACTED] (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 23,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913210Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 24,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913340Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v2 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 25,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913465Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v3 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 26,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913602Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v4 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 27,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913720Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v5 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 28,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913839Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v6 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 29,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.913949Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 30,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.914389Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig all params json:\n{\n  \"adjustEvent_a\": {\n    \"value\": \"kp1kfi\",\n    \"source\": \"valueRemote\"\n  },\n  \"adjustStartEvent\": {\n    \"value\": \"ukwyl1\",\n    \"source\": \"valueRemote\"\n  },\n  \"adjustToken\": {\n    \"value\": \"2qmjzeyhbu0w\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl\": {\n    \"value\": \"https://cdn.sweep-spin.",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 31,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.914637Z",
+      "message": "com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v2\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v3\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v4\": {\n    \"value\": \"http",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 32,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.914805Z",
+      "message": "s://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v5\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v6\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v7\": {",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 33,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.914946Z",
+      "message": "\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  }\n}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 34,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.915061Z",
+      "message": "[WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 35,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.915506Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 36,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.915667Z",
+      "message": "[PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+2021ms from start) (+1330ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 37,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.916007Z",
+      "message": "[WEB LOG] [print] Firebase initialization luanchAction info=https://cdn.sweep-spin.com/ios_web/release/index.html",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 38,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.916361Z",
+      "message": "[WEB LOG] [print] adjustInfo notify cocos enabled=true",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 39,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.916475Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig forceNeedInstallInfo = false",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 40,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.916662Z",
+      "message": "[PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+2022ms from start) (+1ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 41,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.921595Z",
+      "message": "[WEB LOG] [print] [AdjustManager]: SDK initialized successfully",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 42,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.922914Z",
+      "message": "[WEB LOG] [print] AppsFlyer afDevKey or appId is not available",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 43,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.923080Z",
+      "message": "[PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+2028ms from start) (+6ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 44,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.923475Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig adjustStartEvent = ukwyl1, apfStartEvent = ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 45,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.924655Z",
+      "message": "[WEB LOG] [print] [AdjustManager]: Simple event tracked: kp1kfi",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 46,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.925981Z",
+      "message": "[PerformanceMonitor] 🏁 [SDK IDs并行获取完成] (+2031ms from start) (+2ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 47,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.926503Z",
+      "message": "[WEB LOG] [print] results [c15d0c6879bb29178117dac7ae79be3d, , ]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 48,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.936674Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig: _isWhiteByName iPhone",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 49,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.936910Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig: not in whitelist",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 50,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.937111Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig: getSource false",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 51,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.937379Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig maxRetry = 200",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 52,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.937468Z",
+      "message": "[PerformanceMonitor] 🏁 [⏳ 开始等待Adjust ValidIds] (+2043ms from start) (+11ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 53,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.937861Z",
+      "message": "[PerformanceMonitor] 🏁 [✅ Adjust ValidIds等待结束] (+2043ms from start) (+0ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 54,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.937983Z",
+      "message": "[PerformanceMonitor] 🏁 [🎯 所有SDK归因数据就绪] (+2043ms from start) (+0ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 55,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.938865Z",
+      "message": "[WEB LOG] [print] Attribution ready snapshot:\n{\n  \"stage\": \"after_wait_valid_ids\",\n  \"source\": false,\n  \"forceNeedInstallInfo\": false,\n  \"assertInstallInfoNotNull\": false,\n  \"maxRetry\": 200,\n  \"adjust\": {\n    \"hasConfig\": true,\n    \"ajid\": \"c15d0c6879bb29178117dac7ae79be3d\",\n    \"ajidReady\": true,\n    \"ajDataReady\": true,\n    \"ajData\": {\n      \"trac",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 56,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.938984Z",
+      "message": "kerToken\": \"unattr\",\n      \"trackerName\": \"No User Consent\",\n      \"network\": \"No User Consent\",\n      \"campaign\": \"\",\n      \"adgroup\": \"\",\n      \"creative\": \"\",\n      \"clickLabel\": \"\",\n      \"costType\": \"\",\n      \"costAmount\": null,\n      \"costCurrency\": \"\",\n      \"jsonResponse\": \"{\\\"engagement_time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"u",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 57,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.939073Z",
+      "message": "nattr\\\",\\\"tracker_name\\\":\\\"No User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent\\\"}\",\n      \"fbInstallReferrer\": null\n    }\n  },\n  \"appsflyer\": {\n    \"hasConfig\": false,\n    \"afid\": \"\",\n    \"afidReady\": false,",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 58,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.939139Z",
+      "message": "\n    \"afDataReady\": false,\n    \"afData\": \"\"\n  }\n}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 59,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.939728Z",
+      "message": "[WEB LOG] [print] [AdjustManager]: Simple event tracked: ukwyl1",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 60,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.940528Z",
+      "message": "[WEB LOG] [print] results url=https://cdn.sweep-spin.com/ios_web/release/index.html",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 61,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.940877Z",
+      "message": "[WEB LOG] [print] DeepLink scheme data: {}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 62,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.943506Z",
+      "message": "[WEB LOG] [print] Launch deviceInfo json:\n{\n  \"device_brand\": \"Apple\",\n  \"device_model\": \"iPhone14,7\",\n  \"language\": \"zh_Hans_CN\",\n  \"user_agent\": \"Mozilla/5.0\",\n  \"platform\": \"ios\",\n  \"udid\": \"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\n  \"country_code\": \"zh_Hans_CN\",\n  \"liuhai_height\": 47.0,\n  \"orientation\": \"landscape\",\n  \"systemVersion\": \"16.3.1\",\n  ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 63,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.943621Z",
+      "message": "\"saferect\": \"47.0,47.0,47.0,21.0\",\n  \"afid\": \"\",\n  \"idfa\": \"\",\n  \"idfv\": \"019363BC-DF27-49E9-BAB7-B512274CABA0\",\n  \"uuid\": \"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\n  \"idfv_keychain\": \"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\n  \"adjustid\": \"c15d0c6879bb29178117dac7ae79be3d\",\n  \"google_adid\": \"\",\n  \"adjust_installInfo\": \"{\\\"trackerToken\\\":\\\"unattr\\\",\\\"t",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 64,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.943702Z",
+      "message": "rackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\\\"{\\\\\\\"engagement_time\\\\\\\":\\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 65,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.943776Z",
+      "message": "\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"installed_at\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\n  \"gp_referrer\": \"\",\n  \"bundleId\": \"com.unitytest.007\",\n  \"afdata\": {},\n  \"timeZoneName\": \"EDT\",\n  \"cpu",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 66,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.943834Z",
+      "message": "Cores\": 6,\n  \"isAllowedNoti\": false,\n  \"versionCode\": \"15\",\n  \"version\": \"15\",\n  \"versionName\": \"1.0.8\",\n  \"scheme\": {},\n  \"langue_record\": []\n}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 67,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.944493Z",
+      "message": "[WEB LOG] [print] ~~~~~~~~results url=https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=zh_Hans_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=zh_Hans_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 68,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.944590Z",
+      "message": "2C21.0&afid&idfa&idfv=019363BC-DF27-49E9-BAB7-B512274CABA0&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo=%7B%22trackerToken%22%3A%22unattr%22%2C%22trackerName%22%3A%22No+User+Consent%22%2C%22network%22%3A%22No+User+Consent%22%2C%2",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 69,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.944665Z",
+      "message": "2campaign%22%3A%22%22%2C%22adgroup%22%3A%22%22%2C%22creative%22%3A%22%22%2C%22clickLabel%22%3A%22%22%2C%22costType%22%3A%22%22%2C%22costAmount%22%3Anull%2C%22costCurrency%22%3A%22%22%2C%22jsonResponse%22%3A%22%7B%5C%22engagement_time%5C%22%3A%5C%220001-01-01T00%3A00%3A00Z%5C%22%2C%5C%22tracker_token%5C%22%3A%5C%22unattr%5C%22%2C%5C%22tracker_name%5",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 70,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.944776Z",
+      "message": "C%22%3A%5C%22No+User+Consent%5C%22%2C%5C%22is_reattributed%5C%22%3Afalse%2C%5C%22is_redownload_install%5C%22%3Atrue%2C%5C%22first_session_time%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22installed_at%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22network%5C%22%3A%5C%22No+User+Consent%5C%22%7D%22%2C%22fbInstallReferrer%22%3Anull%7D&gp",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 71,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.944836Z",
+      "message": "_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 72,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.946510Z",
+      "message": "[WEB LOG] [print] Merged launch url: https://cdn.sweep-spin.com/ios_web/release/index.html",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 73,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.946599Z",
+      "message": "[WEB LOG] [print] Merged launch query:\n{\n  \"device_brand\": \"Apple\",\n  \"device_model\": \"iPhone14,7\",\n  \"language\": \"zh_Hans_CN\",\n  \"user_agent\": \"Mozilla/5.0\",\n  \"platform\": \"ios\",\n  \"udid\": \"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\n  \"country_code\": \"zh_Hans_CN\",\n  \"liuhai_height\": \"47.0\",\n  \"orientation\": \"landscape\",\n  \"systemVersion\": \"16.3.1\",\n  \"",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 74,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.946674Z",
+      "message": "saferect\": \"47.0,47.0,47.0,21.0\",\n  \"afid\": \"\",\n  \"idfa\": \"\",\n  \"idfv\": \"019363BC-DF27-49E9-BAB7-B512274CABA0\",\n  \"uuid\": \"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\n  \"idfv_keychain\": \"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\n  \"adjustid\": \"c15d0c6879bb29178117dac7ae79be3d\",\n  \"google_adid\": \"\",\n  \"adjust_installInfo\": \"{\\\"trackerToken\\\":\\\"unattr\\\",\\\"tr",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 75,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.946749Z",
+      "message": "ackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\\\"{\\\\\\\"engagement_time\\\\\\\":\\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 76,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.946820Z",
+      "message": "\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"installed_at\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\n  \"gp_referrer\": \"\",\n  \"bundleId\": \"com.unitytest.007\",\n  \"afdata\": \"{}\",\n  \"timeZoneName\": \"EDT\",\n  \"cp",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 77,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.946873Z",
+      "message": "uCores\": \"6\",\n  \"isAllowedNoti\": \"false\",\n  \"versionCode\": \"15\",\n  \"version\": \"15\",\n  \"versionName\": \"1.0.8\",\n  \"scheme\": \"{}\",\n  \"langue_record\": \"[]\"\n}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 78,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.955733Z",
+      "message": "[PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+2061ms from start) (+17ms from last)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 79,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.974743Z",
+      "message": "[WEB LOG] [deal] HallController remoteUrl=>  https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=zh_Hans_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=zh_Hans_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 80,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.974837Z",
+      "message": "2C47.0%2C21.0&afid&idfa&idfv=019363BC-DF27-49E9-BAB7-B512274CABA0&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo=%7B%22trackerToken%22%3A%22unattr%22%2C%22trackerName%22%3A%22No+User+Consent%22%2C%22network%22%3A%22No+User+Consent%",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 81,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.974893Z",
+      "message": "22%2C%22campaign%22%3A%22%22%2C%22adgroup%22%3A%22%22%2C%22creative%22%3A%22%22%2C%22clickLabel%22%3A%22%22%2C%22costType%22%3A%22%22%2C%22costAmount%22%3Anull%2C%22costCurrency%22%3A%22%22%2C%22jsonResponse%22%3A%22%7B%5C%22engagement_time%5C%22%3A%5C%220001-01-01T00%3A00%3A00Z%5C%22%2C%5C%22tracker_token%5C%22%3A%5C%22unattr%5C%22%2C%5C%22tracker",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 82,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.974940Z",
+      "message": "_name%5C%22%3A%5C%22No+User+Consent%5C%22%2C%5C%22is_reattributed%5C%22%3Afalse%2C%5C%22is_redownload_install%5C%22%3Atrue%2C%5C%22first_session_time%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22installed_at%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22network%5C%22%3A%5C%22No+User+Consent%5C%22%7D%22%2C%22fbInstallReferrer%22%3Anul",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 83,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.975024Z",
+      "message": "l%7D&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 84,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.975084Z",
+      "message": "[WEB LOG] [deal] HallController codeWhenLoadedCompleted=>  ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 85,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:52.975135Z",
+      "message": "[WEB LOG] [deal] HallController schemeData=>  {}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 86,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.035007Z",
+      "message": "[WEB LOG] [deal] inHall  bind native onEngagelabRegistrationId callback",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 87,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.035472Z",
+      "message": "[WEB LOG] [deal] _getHandlerName winnerNative",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 88,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.035685Z",
+      "message": "[WEB LOG] [deal] inHall  adjustInfo notify reason=hall_bind before hall init",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 89,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.035874Z",
+      "message": "[WEB LOG] [deal] inHall  adjustInfo notify cocos payload:\n{\n  \"ajid\": \"c15d0c6879bb29178117dac7ae79be3d\",\n  \"ajData\": {\n    \"trackerToken\": \"unattr\",\n    \"trackerName\": \"No User Consent\",\n    \"network\": \"No User Consent\",\n    \"campaign\": \"\",\n    \"adgroup\": \"\",\n    \"creative\": \"\",\n    \"clickLabel\": \"\",\n    \"costType\": \"\",\n    \"costAmount\": null,\n    ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 90,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.035943Z",
+      "message": "\"costCurrency\": \"\",\n    \"jsonResponse\": \"{\\\"engagement_time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"unattr\\\",\\\"tracker_name\\\":\\\"No User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent\\\"}\",\n    \"fbInstallR",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 91,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.035989Z",
+      "message": "eferrer\": null\n  },\n  \"afid\": \"\",\n  \"afData\": \"\"\n}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 92,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.036045Z",
+      "message": "[WEB LOG] [deal] inHall  adjustInfo notify cocos script=(function() {\n  try {\n    var payload = {\"ajid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"ajData\":{\"trackerToken\":\"unattr\",\"trackerName\":\"No User Consent\",\"network\":\"No User Consent\",\"campaign\":\"\",\"adgroup\":\"\",\"creative\":\"\",\"clickLabel\":\"\",\"costType\":\"\",\"costAmount\":null,\"costCurrency\":\"\",\"jsonRespon",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 93,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.036098Z",
+      "message": "se\":\"{\\\"engagement_time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"unattr\\\",\\\"tracker_name\\\":\\\"No User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent\\\"}\",\"fbInstallReferrer\":null},\"afid\":\"\",\"afData\":\"\"};\n  ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 94,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.036136Z",
+      "message": "  if (window.NativeToCocos && typeof window.NativeToCocos.adjustInfo === 'function') {\n      window.NativeToCocos.adjustInfo(payload);\n      return 'ok';\n    }\n    return 'missing_handler';\n  } catch (e) {\n    return 'error:' + e;\n  }\n})();\n",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 95,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.036395Z",
+      "message": "[WEB LOG] [deal] inHall  callJS 1 (function() {\n  try {\n    var payload = {\"ajid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"ajData\":{\"trackerToken\":\"unattr\",\"trackerName\":\"No User Consent\",\"network\":\"No User Consent\",\"campaign\":\"\",\"adgroup\":\"\",\"creative\":\"\",\"clickLabel\":\"\",\"costType\":\"\",\"costAmount\":null,\"costCurrency\":\"\",\"jsonResponse\":\"{\\\"engagement_tim",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 96,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.036471Z",
+      "message": "e\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"unattr\\\",\\\"tracker_name\\\":\\\"No User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent\\\"}\",\"fbInstallReferrer\":null},\"afid\":\"\",\"afData\":\"\"};\n    if (window.NativeToC",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 97,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.036515Z",
+      "message": "ocos && typeof window.NativeToCocos.adjustInfo === 'function') {\n      window.NativeToCocos.adjustInfo(payload);\n      return 'ok';\n    }\n    return 'missing_handler';\n  } catch (e) {\n    return 'error:' + e;\n  }\n})();\n",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 98,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.208156Z",
+      "message": "[WEB LOG] [deal] inHall  callJS 2 (function() {\n  try {\n    var payload = {\"ajid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"ajData\":{\"trackerToken\":\"unattr\",\"trackerName\":\"No User Consent\",\"network\":\"No User Consent\",\"campaign\":\"\",\"adgroup\":\"\",\"creative\":\"\",\"clickLabel\":\"\",\"costType\":\"\",\"costAmount\":null,\"costCurrency\":\"\",\"jsonResponse\":\"{\\\"engagement_tim",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 99,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.208413Z",
+      "message": "e\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"unattr\\\",\\\"tracker_name\\\":\\\"No User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent\\\"}\",\"fbInstallReferrer\":null},\"afid\":\"\",\"afData\":\"\"};\n    if (window.NativeToC",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 100,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.208514Z",
+      "message": "ocos && typeof window.NativeToCocos.adjustInfo === 'function') {\n      window.NativeToCocos.adjustInfo(payload);\n      return 'ok';\n    }\n    return 'missing_handler';\n  } catch (e) {\n    return 'error:' + e;\n  }\n})();\n",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 101,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.208620Z",
+      "message": "[WEB LOG] [deal] inHall  adjustInfo notify cocos result=missing_handler",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 102,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.215305Z",
+      "message": "[WEB LOG] [webview] onLoadStart: https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=zh_Hans_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=zh_Hans_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C21.",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 103,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.215503Z",
+      "message": "0&afid&idfa&idfv=019363BC-DF27-49E9-BAB7-B512274CABA0&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo=%7B%22trackerToken%22%3A%22unattr%22%2C%22trackerName%22%3A%22No+User+Consent%22%2C%22network%22%3A%22No+User+Consent%22%2C%22camp",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 104,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.215587Z",
+      "message": "aign%22%3A%22%22%2C%22adgroup%22%3A%22%22%2C%22creative%22%3A%22%22%2C%22clickLabel%22%3A%22%22%2C%22costType%22%3A%22%22%2C%22costAmount%22%3Anull%2C%22costCurrency%22%3A%22%22%2C%22jsonResponse%22%3A%22%7B%5C%22engagement_time%5C%22%3A%5C%220001-01-01T00%3A00%3A00Z%5C%22%2C%5C%22tracker_token%5C%22%3A%5C%22unattr%5C%22%2C%5C%22tracker_name%5C%22%",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 105,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.215665Z",
+      "message": "3A%5C%22No+User+Consent%5C%22%2C%5C%22is_reattributed%5C%22%3Afalse%2C%5C%22is_redownload_install%5C%22%3Atrue%2C%5C%22first_session_time%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22installed_at%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22network%5C%22%3A%5C%22No+User+Consent%5C%22%7D%22%2C%22fbInstallReferrer%22%3Anull%7D&gp_refe",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 106,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:53.215726Z",
+      "message": "rrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 107,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.575870Z",
+      "message": "[WEB LOG] [deal] _getHandlerName winnerNative",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 108,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.578064Z",
+      "message": "[WEB LOG] [deal] _getHandlerName winnerNative",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 109,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.579974Z",
+      "message": "[WEB LOG] [webview] LOG: [web] resolve branch: urlParams (uuid+bundleId+version in URL)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 110,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.580361Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy:net] startFromUrlParams bundle= com.unitytest.007 uuid(len)= 36 version= 15",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 111,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.580665Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy:net] resolve POST https://api.sweep-spin.com/api/version/resolve bundle_id= com.unitytest.007 version= 15 udid= 015D8F3E-46A…(len=36)",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 112,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.583618Z",
+      "message": "[WEB LOG] [webview] ERROR: JavaScript execution returned a result of an unsupported type",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 113,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.924419Z",
+      "message": "[WEB LOG] [print] xxxxxxxx loop adid=== c15d0c6879bb29178117dac7ae79be3d",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 114,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.929805Z",
+      "message": "[WEB LOG] [print] Adjust _waitForAdjustAttribution ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 115,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.931684Z",
+      "message": "[WEB LOG] [print] Adjust attributionCallback: {\"trackerToken\":\"unattr\",\"trackerName\":\"No User Consent\",\"network\":\"No User Consent\",\"campaign\":\"\",\"adgroup\":\"\",\"creative\":\"\",\"clickLabel\":\"\",\"costType\":\"\",\"costAmount\":null,\"costCurrency\":\"\",\"jsonResponse\":\"{\\\"engagement_time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"unattr\\\",\\\"tracker_name\\\":\\\"No ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 116,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.932045Z",
+      "message": "User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent\\\"}\",\"fbInstallReferrer\":null}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 117,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.933235Z",
+      "message": "[WEB LOG] [deal] inHall  adjustInfo skip reason=adjust: already notified",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 118,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.958879Z",
+      "message": "[PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 119,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.961426Z",
+      "message": "[PerformanceMonitor] ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 120,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.961806Z",
+      "message": "[PerformanceMonitor] ╔══════════════════════════════════════════════════╗",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 121,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.962147Z",
+      "message": "[PerformanceMonitor] ║       📈  性能追踪详细报告                       ║",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 122,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.962445Z",
+      "message": "[PerformanceMonitor] ╠══════════════════════════════════════════════════╣",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 123,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.962960Z",
+      "message": "[PerformanceMonitor] ║ 设备: ios                                       ║",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 124,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.965273Z",
+      "message": "[PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 125,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.966146Z",
+      "message": "[PerformanceMonitor] ║ 当前时间: 2026-09-15 06:15:54.965678            ║",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 126,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.966486Z",
+      "message": "[PerformanceMonitor] ║ ⏱️ 总启动耗时: 4072ms                        ║",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 127,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.966718Z",
+      "message": "[PerformanceMonitor] ╚══════════════════════════════════════════════════╝",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 128,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.966956Z",
+      "message": "[PerformanceMonitor] ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 129,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.967178Z",
+      "message": "[PerformanceMonitor] 🏁 ──── 里程碑时间线 (11个节点) ────",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 130,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.967895Z",
+      "message": "[PerformanceMonitor]   ✅ 1. [Firebase初始化开始             ] → T+   677ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 131,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.968237Z",
+      "message": "[PerformanceMonitor]   ✅ 2. [Firebase初始化完成             ] → T+   690ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 132,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.968492Z",
+      "message": "[PerformanceMonitor]   ✅ 3. [启动流程luanchAction开始        ] → T+   691ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 133,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.968735Z",
+      "message": "[PerformanceMonitor]   ⏳ 4. [Firebase RemoteConfig 获取完成] → T+  2021ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 134,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.968956Z",
+      "message": "[PerformanceMonitor]        📊 间隔: +1330ms ⬆️",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 135,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.969186Z",
+      "message": "[PerformanceMonitor]   ⏳ 5. [ATT/KeyChain 初始化完成        ] → T+  2022ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 136,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.969430Z",
+      "message": "[PerformanceMonitor]   ⏳ 6. [Adjust+AppsFlyer SDK初始化完成 ] → T+  2028ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 137,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.969659Z",
+      "message": "[PerformanceMonitor]   ⏳ 7. [SDK IDs并行获取完成             ] → T+  2031ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 138,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.969900Z",
+      "message": "[PerformanceMonitor]   ⏳ 8. [⏳ 开始等待Adjust ValidIds     ] → T+  2043ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 139,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.970143Z",
+      "message": "[PerformanceMonitor]   ⏳ 9. [✅ Adjust ValidIds等待结束     ] → T+  2043ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 140,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.970381Z",
+      "message": "[PerformanceMonitor]   ⏳ 10. [🎯 所有SDK归因数据就绪            ] → T+  2043ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 141,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.970626Z",
+      "message": "[PerformanceMonitor]   ⏳ 11. [启动流程luanchAction结束        ] → T+  2061ms",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 142,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.970854Z",
+      "message": "[PerformanceMonitor] ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 143,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.971225Z",
+      "message": "[PerformanceMonitor] ──────────────────────────────────────────────\n",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 144,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:54.999016Z",
+      "message": "[WEB LOG] [deal] HallController sending scheme to JS: {}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 145,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.000459Z",
+      "message": "[WEB LOG] [webview] LOG: handleSchemeData function not found, creating global scheme data",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 146,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.482872Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy:net] resolve HTTP ok= true status= 200 bodyLen= 103",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 147,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.484373Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy:net] resolve body code= 0 data.url=  message= success",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 148,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.485517Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy:net] resolve code=0 but data.url empty → white list 不会生效，boot 将回退 version.json",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 149,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.486792Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy:net] resolve OK → wrote LS spinergy_whiteVersion_Hall =  readBack= ",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 150,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.487692Z",
+      "message": "[WEB LOG] [webview] LOG: [web] after resolve step settled, result= {\"ok\":true,\"url\":\"\",\"version\":\"15\",\"baseUrl\":\"https://api.sweep-spin.com\"}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 151,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.488724Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy] page url: https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=zh_Hans_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=zh_Hans_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 152,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.489136Z",
+      "message": "%2C47.0%2C21.0&afid&idfa&idfv=019363BC-DF27-49E9-BAB7-B512274CABA0&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo=%7B%22trackerToken%22%3A%22unattr%22%2C%22trackerName%22%3A%22No+User+Consent%22%2C%22network%22%3A%22No+User+Consent",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 153,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.489473Z",
+      "message": "%22%2C%22campaign%22%3A%22%22%2C%22adgroup%22%3A%22%22%2C%22creative%22%3A%22%22%2C%22clickLabel%22%3A%22%22%2C%22costType%22%3A%22%22%2C%22costAmount%22%3Anull%2C%22costCurrency%22%3A%22%22%2C%22jsonResponse%22%3A%22%7B%5C%22engagement_time%5C%22%3A%5C%220001-01-01T00%3A00%3A00Z%5C%22%2C%5C%22tracker_token%5C%22%3A%5C%22unattr%5C%22%2C%5C%22tracke",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 154,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.489802Z",
+      "message": "r_name%5C%22%3A%5C%22No+User+Consent%5C%22%2C%5C%22is_reattributed%5C%22%3Afalse%2C%5C%22is_redownload_install%5C%22%3Atrue%2C%5C%22first_session_time%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22installed_at%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22network%5C%22%3A%5C%22No+User+Consent%5C%22%7D%22%2C%22fbInstallReferrer%22%3Anu",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 155,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.490062Z",
+      "message": "ll%7D&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 156,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.490986Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy] query (?…): [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 157,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.491984Z",
+      "message": "[WEB LOG] [webview] LOG: [spinergy] page_url msg1 (bundleId/uuid/version): {\"bundleId\":\"com.unitytest.007\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"version\":\"15\"}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 158,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.493002Z",
+      "message": "[WEB LOG] [webview] LOG: [web] resolveBootVersion LS spinergy_whiteVersion_Hall = (empty) → fetch version.json",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 159,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.493786Z",
+      "message": "[WEB LOG] [webview] LOG: toVersionDirName v0=  354.0.5",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 160,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.494400Z",
+      "message": "[WEB LOG] [webview] LOG: toVersionDirName s0=  354.0.5",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 161,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.495007Z",
+      "message": "[WEB LOG] [webview] LOG: toVersionDirName m=  354-0-5",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 162,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.495680Z",
+      "message": "[WEB LOG] [webview] LOG: [web] boot versionDir=%s source=%s 354-0-5 version.json",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 163,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.606388Z",
+      "message": "[WEB LOG] [webview] LOG: Warning 9200, please go to https://github.com/cocos-creator/engine/blob/master/EngineErrorMap.md#9200 to see details.",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 164,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.799447Z",
+      "message": "[WEB LOG] [webview] LOG: Cocos Creator v2.4.9",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 165,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.878225Z",
+      "message": "[WEB LOG] [webview] LOG: web调用原生 [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 166,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.879382Z",
+      "message": "[WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 167,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.880093Z",
+      "message": "[WEB LOG] [webview] Received JSBridge call: {\"origin\":\"winner_game\",\"method\":\"cc_init_complete\"}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 168,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.881725Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall START ===> {\"origin\":\"winner_game\",\"method\":\"cc_init_complete\"}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 169,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.881829Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 170,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.881874Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _hasInit = false",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 171,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.881922Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 172,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.881963Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 52",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 173,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882017Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 174,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882062Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: cc_init_complete}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 175,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882192Z",
+      "message": "[WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=cc_init_complete, data=null, jsonLength=52",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 176,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882334Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: parsed cmd=cc_init_complete, data=null",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 177,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882380Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = Null",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 178,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882416Z",
+      "message": "[WEB LOG] [deal] inHall  CC_INIT_COMPLETE case matched",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 179,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.882948Z",
+      "message": "[WEB LOG] [webview] LOG: web调用原生 [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 180,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883061Z",
+      "message": "[WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 181,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883344Z",
+      "message": "[WEB LOG] [webview] Received JSBridge call: {\"origin\":\"winner_game\",\"method\":\"keep_screen_on\",\"data\":1}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 182,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883400Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall START ===> {\"origin\":\"winner_game\",\"method\":\"keep_screen_on\",\"data\":1}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 183,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883439Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 184,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883476Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _hasInit = true",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 185,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883513Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 186,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883546Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 187,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883597Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 188,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883639Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 189,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883675Z",
+      "message": "[WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 190,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883727Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 191,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883785Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 192,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883846Z",
+      "message": "[WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 193,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.883894Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall END <===",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 194,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.884016Z",
+      "message": "[WEB LOG] [webview] TIP: Spinergy_GameDebug = null",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 195,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885109Z",
+      "message": "[WEB LOG] [webview] TIP: initTaHandEvent =  [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 196,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885430Z",
+      "message": "[WEB LOG] [print] HallJsCall.sendDeviceInfo scheme 参数: {}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 197,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885511Z",
+      "message": "[WEB LOG] [deal] inHall  sendDeviceInfo {device_brand: Apple, device_model: iPhone14,7, language: zh_Hans_CN, user_agent: Mozilla/5.0, platform: ios, udid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, country_code: zh_Hans_CN, liuhai_height: 47.0, orientation: landscape, systemVersion: 16.3.1, saferect: 47.0,47.0,47.0,21.0, afid: , idfa: , idfv: 019363BC-D",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 198,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885563Z",
+      "message": "F27-49E9-BAB7-B512274CABA0, uuid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, idfv_keychain: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, adjustid: c15d0c6879bb29178117dac7ae79be3d, google_adid: , adjust_installInfo: {\"trackerToken\":\"unattr\",\"trackerName\":\"No User Consent\",\"network\":\"No User Consent\",\"campaign\":\"\",\"adgroup\":\"\",\"creative\":\"\",\"clickLabel\":\"\",\"cos",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 199,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885610Z",
+      "message": "tType\":\"\",\"costAmount\":null,\"costCurrency\":\"\",\"jsonResponse\":\"{\\\"engagement_time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"tracker_token\\\":\\\"unattr\\\",\\\"tracker_name\\\":\\\"No User Consent\\\",\\\"is_reattributed\\\":false,\\\"is_redownload_install\\\":true,\\\"first_session_time\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"installed_at\\\":\\\"2026-09-15T09:37:24Z\\\",\\\"network\\\":\\\"No User Consent",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 200,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885645Z",
+      "message": "\\\"}\",\"fbInstallReferrer\":null}, gp_referrer: , bundleId: com.unitytest.007, afdata: {}, timeZoneName: EDT, cpuCores: 6, isAllowedNoti: false, versionCode: 15, version: 15, versionName: 1.0.8, scheme: {}, langue_record: []}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 201,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885753Z",
+      "message": "[WEB LOG] [deal] inHall  sendDeviceInfo 2 script window.NativeToCocos.returnDeviceInfo('\"{\\\"device_brand\\\":\\\"Apple\\\",\\\"device_model\\\":\\\"iPhone14,7\\\",\\\"language\\\":\\\"zh_Hans_CN\\\",\\\"user_agent\\\":\\\"Mozilla/5.0\\\",\\\"platform\\\":\\\"ios\\\",\\\"udid\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"country_code\\\":\\\"zh_Hans_CN\\\",\\\"liuhai_height\\\":47.0,\\\"orientation\\\":\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 202,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885798Z",
+      "message": "\"landscape\\\",\\\"systemVersion\\\":\\\"16.3.1\\\",\\\"saferect\\\":\\\"47.0,47.0,47.0,21.0\\\",\\\"afid\\\":\\\"\\\",\\\"idfa\\\":\\\"\\\",\\\"idfv\\\":\\\"019363BC-DF27-49E9-BAB7-B512274CABA0\\\",\\\"uuid\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"idfv_keychain\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"adjustid\\\":\\\"c15d0c6879bb29178117dac7ae79be3d\\\",\\\"google_adid\\\":\\\"\\\",\\\"adjust_inst",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 203,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885839Z",
+      "message": "allInfo\\\":\\\"{\\\\\\\"trackerToken\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"trackerName\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"campaign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"adgroup\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"creative\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"clickLabel\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"costType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"costAmount\\\\\\\":null,\\\\\\\"costCurrency\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"jsonResponse\\\\\\\":\\\\\\\"{\\\\\\\\\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 204,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885934Z",
+      "message": "\\\"engagement_time\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"0001-01-01T00:00:00Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"tracker_token\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"unattr\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"tracker_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"No User Consent\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"is_reattributed\\\\\\\\\\\\\\\":false,\\\\\\\\\\\\\\\"is_redownload_install\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"first_session_time\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"2026-09-15T09:37:24Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"installed_at",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 205,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.885977Z",
+      "message": "\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"2026-09-15T09:37:24Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"network\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"No User Consent\\\\\\\\\\\\\\\"}\\\\\\\",\\\\\\\"fbInstallReferrer\\\\\\\":null}\\\",\\\"gp_referrer\\\":\\\"\\\",\\\"bundleId\\\":\\\"com.unitytest.007\\\",\\\"afdata\\\":{},\\\"timeZoneName\\\":\\\"EDT\\\",\\\"cpuCores\\\":6,\\\"isAllowedNoti\\\":false,\\\"versionCode\\\":\\\"15\\\",\\\"version\\\":\\\"15\\\",\\\"versionName\\\":\\\"1.0.8\\\",\\\"schem",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 206,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886052Z",
+      "message": "e\\\":{},\\\"langue_record\\\":[]}\"')",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 207,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886100Z",
+      "message": "[WEB LOG] [deal] inHall  callJS 1 window.NativeToCocos.returnDeviceInfo('\"{\\\"device_brand\\\":\\\"Apple\\\",\\\"device_model\\\":\\\"iPhone14,7\\\",\\\"language\\\":\\\"zh_Hans_CN\\\",\\\"user_agent\\\":\\\"Mozilla/5.0\\\",\\\"platform\\\":\\\"ios\\\",\\\"udid\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"country_code\\\":\\\"zh_Hans_CN\\\",\\\"liuhai_height\\\":47.0,\\\"orientation\\\":\\\"landscape\\\",\\\"",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 208,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886140Z",
+      "message": "systemVersion\\\":\\\"16.3.1\\\",\\\"saferect\\\":\\\"47.0,47.0,47.0,21.0\\\",\\\"afid\\\":\\\"\\\",\\\"idfa\\\":\\\"\\\",\\\"idfv\\\":\\\"019363BC-DF27-49E9-BAB7-B512274CABA0\\\",\\\"uuid\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"idfv_keychain\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"adjustid\\\":\\\"c15d0c6879bb29178117dac7ae79be3d\\\",\\\"google_adid\\\":\\\"\\\",\\\"adjust_installInfo\\\":\\\"{\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 209,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886180Z",
+      "message": "\\\"trackerToken\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"trackerName\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"campaign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"adgroup\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"creative\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"clickLabel\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"costType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"costAmount\\\\\\\":null,\\\\\\\"costCurrency\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"jsonResponse\\\\\\\":\\\\\\\"{\\\\\\\\\\\\\\\"engagement_ti",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 210,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886355Z",
+      "message": "me\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"0001-01-01T00:00:00Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"tracker_token\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"unattr\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"tracker_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"No User Consent\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"is_reattributed\\\\\\\\\\\\\\\":false,\\\\\\\\\\\\\\\"is_redownload_install\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"first_session_time\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"2026-09-15T09:37:24Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"installed_at\\\\\\\\\\\\\\\":\\\\\\\\\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 211,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886406Z",
+      "message": "\\\"2026-09-15T09:37:24Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"network\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"No User Consent\\\\\\\\\\\\\\\"}\\\\\\\",\\\\\\\"fbInstallReferrer\\\\\\\":null}\\\",\\\"gp_referrer\\\":\\\"\\\",\\\"bundleId\\\":\\\"com.unitytest.007\\\",\\\"afdata\\\":{},\\\"timeZoneName\\\":\\\"EDT\\\",\\\"cpuCores\\\":6,\\\"isAllowedNoti\\\":false,\\\"versionCode\\\":\\\"15\\\",\\\"version\\\":\\\"15\\\",\\\"versionName\\\":\\\"1.0.8\\\",\\\"scheme\\\":{},\\\"langue",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 212,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.886441Z",
+      "message": "_record\\\":[]}\"')",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 213,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.902520Z",
+      "message": "[WEB LOG] [deal] inHall  callJS 2 window.NativeToCocos.returnDeviceInfo('\"{\\\"device_brand\\\":\\\"Apple\\\",\\\"device_model\\\":\\\"iPhone14,7\\\",\\\"language\\\":\\\"zh_Hans_CN\\\",\\\"user_agent\\\":\\\"Mozilla/5.0\\\",\\\"platform\\\":\\\"ios\\\",\\\"udid\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"country_code\\\":\\\"zh_Hans_CN\\\",\\\"liuhai_height\\\":47.0,\\\"orientation\\\":\\\"landscape\\\",\\\"",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 214,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.902676Z",
+      "message": "systemVersion\\\":\\\"16.3.1\\\",\\\"saferect\\\":\\\"47.0,47.0,47.0,21.0\\\",\\\"afid\\\":\\\"\\\",\\\"idfa\\\":\\\"\\\",\\\"idfv\\\":\\\"019363BC-DF27-49E9-BAB7-B512274CABA0\\\",\\\"uuid\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"idfv_keychain\\\":\\\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\\\",\\\"adjustid\\\":\\\"c15d0c6879bb29178117dac7ae79be3d\\\",\\\"google_adid\\\":\\\"\\\",\\\"adjust_installInfo\\\":\\\"{\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 215,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.902748Z",
+      "message": "\\\"trackerToken\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"trackerName\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"campaign\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"adgroup\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"creative\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"clickLabel\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"costType\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"costAmount\\\\\\\":null,\\\\\\\"costCurrency\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"jsonResponse\\\\\\\":\\\\\\\"{\\\\\\\\\\\\\\\"engagement_ti",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 216,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.902808Z",
+      "message": "me\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"0001-01-01T00:00:00Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"tracker_token\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"unattr\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"tracker_name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"No User Consent\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"is_reattributed\\\\\\\\\\\\\\\":false,\\\\\\\\\\\\\\\"is_redownload_install\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"first_session_time\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"2026-09-15T09:37:24Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"installed_at\\\\\\\\\\\\\\\":\\\\\\\\\\\\",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 217,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.902860Z",
+      "message": "\\\"2026-09-15T09:37:24Z\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"network\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"No User Consent\\\\\\\\\\\\\\\"}\\\\\\\",\\\\\\\"fbInstallReferrer\\\\\\\":null}\\\",\\\"gp_referrer\\\":\\\"\\\",\\\"bundleId\\\":\\\"com.unitytest.007\\\",\\\"afdata\\\":{},\\\"timeZoneName\\\":\\\"EDT\\\",\\\"cpuCores\\\":6,\\\"isAllowedNoti\\\":false,\\\"versionCode\\\":\\\"15\\\",\\\"version\\\":\\\"15\\\",\\\"versionName\\\":\\\"1.0.8\\\",\\\"scheme\\\":{},\\\"langue",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 218,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.902902Z",
+      "message": "_record\\\":[]}\"')",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 219,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.903146Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall END <===",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 220,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905162Z",
+      "message": "[WEB LOG] [webview] Received JSBridge call: {\"origin\":\"winner_game\",\"method\":\"keep_screen_on\",\"data\":1}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 221,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905234Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall START ===> {\"origin\":\"winner_game\",\"method\":\"keep_screen_on\",\"data\":1}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 222,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905269Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 223,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905306Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _hasInit = true",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 224,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905346Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 225,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905379Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 226,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905423Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 227,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905461Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 228,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905493Z",
+      "message": "[WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 229,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905525Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 230,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905793Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 231,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905838Z",
+      "message": "[WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 232,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:55.905875Z",
+      "message": "[WEB LOG] [deal] inHall  handleJsCall END <===",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 233,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.000707Z",
+      "message": "[WEB LOG] [webview] TIP: getConfigs msg===> [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 234,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.002088Z",
+      "message": "[WEB LOG] [webview] TIP: ___send = {\"bundle_id\":\"com.unitytest.007\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"version\":354,\"ver\":\"v3.5.4\",\"referer\":\"https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=zh_Hans_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 235,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.002179Z",
+      "message": "9&country_code=zh_Hans_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C21.0&afid&idfa&idfv=019363BC-DF27-49E9-BAB7-B512274CABA0&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo=%7B%22tra",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 236,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.002241Z",
+      "message": "ckerToken%22%3A%22unattr%22%2C%22trackerName%22%3A%22No+User+Consent%22%2C%22network%22%3A%22No+User+Consent%22%2C%22campaign%22%3A%22%22%2C%22adgroup%22%3A%22%22%2C%22creative%22%3A%22%22%2C%22clickLabel%22%3A%22%22%2C%22costType%22%3A%22%22%2C%22costAmount%22%3Anull%2C%22costCurrency%22%3A%22%22%2C%22jsonResponse%22%3A%22%7B%5C%22engagement_time%",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 237,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.002293Z",
+      "message": "5C%22%3A%5C%220001-01-01T00%3A00%3A00Z%5C%22%2C%5C%22tracker_token%5C%22%3A%5C%22unattr%5C%22%2C%5C%22tracker_name%5C%22%3A%5C%22No+User+Consent%5C%22%2C%5C%22is_reattributed%5C%22%3Afalse%2C%5C%22is_redownload_install%5C%22%3Atrue%2C%5C%22first_session_time%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22installed_at%5C%22%3A%5C%222026-09-15T",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 238,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.002341Z",
+      "message": "09%3A37%3A24Z%5C%22%2C%5C%22network%5C%22%3A%5C%22No+User+Consent%5C%22%7D%22%2C%22fbInstallReferrer%22%3Anull%7D&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D\",\"timestamp\":1789467356,\"signature\":\"ad90523583393601430",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 239,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:56.002381Z",
+      "message": "62ceb32ec154da9e51cf3\"}",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 240,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:57.164160Z",
+      "message": "[WEB LOG] [webview] TIP: STC-- configs [object Object]",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 241,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:57.165119Z",
+      "message": "[WEB LOG] [webview] TIP: emit : hideChat",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 242,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:57.169688Z",
+      "message": "[WEB LOG] [webview] TIP: emit : hideChat",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 243,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:59.648027Z",
+      "message": "[WEB LOG] [webview] TIP: emit : popViewStackChanged",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 244,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-15T10:15:59.648864Z",
+      "message": "[WEB LOG] [webview] TIP: emit : closeAllPopUIs",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-15T10:15:50.932814Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    }
+  ]
+}
