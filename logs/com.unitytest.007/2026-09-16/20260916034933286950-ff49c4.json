@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sessionId": "20260916034933286950-ff49c4",
   "createdAt": "2026-09-16T03:49:33.286950Z",
-  "updatedAt": "2026-09-16T03:49:59.207032Z",
+  "updatedAt": "2026-09-16T03:50:03.138161Z",
   "app": {
     "appName": "Easy Win Fun",
     "packageName": "com.unitytest.007",
@@ -739,6 +739,499 @@
       },
       "parameters": {
         "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 41,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.076524Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig fetchAndActivate end: true",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 42,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.079354Z",
+      "message": "[WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 43,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.082752Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig all params count = 10",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 44,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083015Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param adjustEvent_a = kp1kfi (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 45,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083135Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param adjustStartEvent = ukwyl1 (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 46,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083236Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param adjust$1=[REDACTED] (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 47,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083418Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 48,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083515Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v2 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 49,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083607Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v3 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 50,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083717Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v4 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 51,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083814Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v5 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 52,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.083919Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v6 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 53,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.084026Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig param remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 54,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.084430Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig all params json:\n{\n  \"adjustEvent_a\": {\n    \"value\": \"kp1kfi\",\n    \"source\": \"valueRemote\"\n  },\n  \"adjustStartEvent\": {\n    \"value\": \"ukwyl1\",\n    \"source\": \"valueRemote\"\n  },\n  \"adjustToken\": {\n    \"value\": \"2qmjzeyhbu0w\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl\": {\n    \"value\": \"https://cdn.sweep-spin.",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 55,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.084586Z",
+      "message": "com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v2\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v3\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v4\": {\n    \"value\": \"http",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 56,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.084704Z",
+      "message": "s://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v5\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v6\": {\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  },\n  \"remoteurl_v7\": {",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 57,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.084813Z",
+      "message": "\n    \"value\": \"https://cdn.sweep-spin.com/ios_web/release/index.html\",\n    \"source\": \"valueRemote\"\n  }\n}",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 58,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.084900Z",
+      "message": "[WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 59,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.085215Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 60,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.085333Z",
+      "message": "[PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+29763ms from start) (+25756ms from last)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 61,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.085565Z",
+      "message": "[WEB LOG] [print] Firebase initialization luanchAction info=https://cdn.sweep-spin.com/ios_web/release/index.html",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 62,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.085857Z",
+      "message": "[WEB LOG] [print] adjustInfo notify cocos enabled=true",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 63,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.085944Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig forceNeedInstallInfo = false",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 64,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.086097Z",
+      "message": "[PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+29763ms from start) (+0ms from last)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 65,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.094929Z",
+      "message": "[WEB LOG] [print] [AdjustManager]: SDK initialized successfully",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 66,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.095605Z",
+      "message": "[WEB LOG] [print] AppsFlyer afDevKey or appId is not available",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 67,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.095709Z",
+      "message": "[PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+29773ms from start) (+9ms from last)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 68,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.096230Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig adjustStartEvent = ukwyl1, apfStartEvent = ",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 69,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:50:03.097082Z",
+      "message": "[WEB LOG] [print] [AdjustManager]: Simple event tracked: kp1kfi",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
       }
     }
   ]
