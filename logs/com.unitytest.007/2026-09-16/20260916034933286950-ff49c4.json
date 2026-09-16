@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "20260916034933286950-ff49c4",
+  "createdAt": "2026-09-16T03:49:33.286950Z",
+  "updatedAt": "2026-09-16T03:49:53.321334Z",
+  "app": {
+    "appName": "Easy Win Fun",
+    "packageName": "com.unitytest.007",
+    "version": "1.0.8",
+    "buildNumber": "15",
+    "buildSignature": ""
+  },
+  "device": {
+    "platform": "ios",
+    "model": "iPhone",
+    "localizedModel": "iPhone",
+    "systemName": "iOS",
+    "osVersion": "16.3.1",
+    "machine": "iPhone14,7",
+    "isPhysicalDevice": true
+  },
+  "networkAtStartup": {
+    "types": [
+      "wifi"
+    ],
+    "primaryType": "wifi",
+    "capturedAt": "2026-09-16T03:49:36.241956Z"
+  },
+  "upload": {
+    "requested": true,
+    "enabled": true,
+    "repository": "xxresource007/xxresponse",
+    "branch": "main",
+    "directory": "logs"
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "type": "session_start",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.318213Z",
+      "startedAt": "2026-09-16T03:49:33.286950Z",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.302631Z"
+      },
+      "parameters": {
+        "uploadRequested": true,
+        "uploadEnabled": true,
+        "githubRepository": "xxresource007/xxresponse",
+        "githubDirectory": "logs"
+      }
+    },
+    {
+      "sequence": 2,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.322631Z",
+      "message": "[PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.302631Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 3,
+      "type": "step_start",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.327209Z",
+      "startedAt": "2026-09-16T03:49:33.327152Z",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.302631Z"
+      },
+      "parameters": {
+        "step": "app_startup",
+        "entrypoint": "main",
+        "startupMode": "cold"
+      }
+    },
+    {
+      "sequence": 4,
+      "type": "exception",
+      "level": "error",
+      "recordedAt": "2026-09-16T03:49:33.340295Z",
+      "message": "Zone mismatch.\nThe Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.\nIt is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.\nTo make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`).",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.302631Z"
+      },
+      "parameters": {
+        "context": "during runApp",
+        "library": "Flutter framework"
+      },
+      "error": {
+        "type": "FlutterError",
+        "message": "Zone mismatch.\nThe Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.\nIt is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.\nTo make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`).",
+        "stackTrace": "#0      BindingBase.debugCheckZone.<anonymous closure> (package:flutter/src/foundation/binding.dart:519:31)\n#1      BindingBase.debugCheckZone (package:flutter/src/foundation/binding.dart:525:6)\n#2      _runWidget (package:flutter/src/widgets/binding.dart:1574:18)\n#3      runApp (package:flutter/src/widgets/binding.dart:1510:3)\n#4      main.<anonymous closure> (package:easy_win_fun/main.dart:77:5)\n#5      XXResponse._runGuarded.<anonymous closure> (package:xxresponse/src/xxresponse.dart:234:29)\n#6      _rootRun (dart:async/zone.dart:1525:13)\n#7      _CustomZone.run (dart:async/zone.dart:1422:19)\n#8      _runZoned (dart:async/zone.dart:2034:6)\n#9      runZonedGuarded (dart:async/zone.dart:2020:12)\n#10     XXResponse._runGuarded (package:xxresponse/src/xxresponse.dart:233:20)\n#11     XXResponse.runGuarded (package:xxresponse/src/xxresponse.dart:88:21)\n#12     main (package:easy_win_fun/main.dart:42:20)\n<asynchronous suspension>\n"
+      }
+    },
+    {
+      "sequence": 5,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.353903Z",
+      "message": "Network authorization warmup scheduled after first frame",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.302631Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 6,
+      "type": "step_end",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.565284Z",
+      "startedAt": "2026-09-16T03:49:33.327152Z",
+      "finishedAt": "2026-09-16T03:49:33.565215Z",
+      "durationMs": 238,
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "step": "app_startup",
+        "entrypoint": "main",
+        "startupMode": "cold"
+      }
+    },
+    {
+      "sequence": 7,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.864090Z",
+      "message": "Network authorization warmup start",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 8,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.880234Z",
+      "message": "Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789530573877",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 9,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:33.919121Z",
+      "message": "Network authorization probe failed attempt=1 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 10,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:34.923649Z",
+      "message": "Network authorization probe start attempt=2 url=https://www.apple.com/library/test/success.html?t=1789530574923",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 11,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:34.941255Z",
+      "message": "Network authorization probe failed attempt=2 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 12,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:35.945174Z",
+      "message": "Network authorization probe start attempt=3 url=https://www.apple.com/library/test/success.html?t=1789530575944",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 13,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:35.962969Z",
+      "message": "Network authorization probe failed attempt=3 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)",
+      "network": {
+        "types": [
+          "none"
+        ],
+        "primaryType": "none",
+        "capturedAt": "2026-09-16T03:49:33.360042Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 14,
+      "type": "network_change",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:36.242227Z",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "previous": {
+          "types": [
+            "none"
+          ],
+          "primaryType": "none",
+          "capturedAt": "2026-09-16T03:49:33.360042Z"
+        },
+        "current": {
+          "types": [
+            "wifi"
+          ],
+          "primaryType": "wifi",
+          "capturedAt": "2026-09-16T03:49:36.241956Z"
+        }
+      }
+    },
+    {
+      "sequence": 15,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:36.967213Z",
+      "message": "Network authorization probe start attempt=4 url=https://www.apple.com/library/test/success.html?t=1789530576966",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 16,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.298196Z",
+      "message": "Network authorization probe end attempt=4 statusCode=200 success=true",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 17,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.301324Z",
+      "message": "Network authorization warmup ready attempt=4",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 18,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.310901Z",
+      "message": "[PerformanceMonitor] 🏁 [Firebase初始化开始] (+3988ms from start)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 19,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.328935Z",
+      "message": "[PerformanceMonitor] 🏁 [Firebase初始化完成] (+4006ms from start) (+18ms from last)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 20,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.329121Z",
+      "message": "[PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+4006ms from start) (+0ms from last)",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 21,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.330652Z",
+      "message": "[WEB LOG] [print] 112312312312",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 22,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.330899Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig setConfigSettings start",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 23,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:37.334334Z",
+      "message": "[WEB LOG] [print] Firebase RemoteConfig fetchAndActivate start",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 24,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.333963Z",
+      "message": "[PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 25,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.352659Z",
+      "message": "[PerformanceMonitor] ",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 26,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.353038Z",
+      "message": "[PerformanceMonitor] ╔══════════════════════════════════════════════════╗",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 27,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.353398Z",
+      "message": "[PerformanceMonitor] ║       📈  性能追踪详细报告                       ║",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 28,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.353702Z",
+      "message": "[PerformanceMonitor] ╠══════════════════════════════════════════════════╣",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 29,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.354258Z",
+      "message": "[PerformanceMonitor] ║ 设备: ios                                       ║",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 30,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.355952Z",
+      "message": "[PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 31,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.357193Z",
+      "message": "[PerformanceMonitor] ║ 当前时间: 2026-09-15 23:49:39.356354            ║",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 32,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.357598Z",
+      "message": "[PerformanceMonitor] ║ ⏱️ 总启动耗时: 6035ms                        ║",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 33,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.357851Z",
+      "message": "[PerformanceMonitor] ╚══════════════════════════════════════════════════╝",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 34,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.358143Z",
+      "message": "[PerformanceMonitor] ",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 35,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.358431Z",
+      "message": "[PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ────",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 36,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.359380Z",
+      "message": "[PerformanceMonitor]   ⏳ 1. [Firebase初始化开始     ] → T+  3988ms",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 37,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.359730Z",
+      "message": "[PerformanceMonitor]   ⏳ 2. [Firebase初始化完成     ] → T+  4006ms",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 38,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.360095Z",
+      "message": "[PerformanceMonitor]   ⏳ 3. [启动流程luanchAction开始] → T+  4006ms",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 39,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.360378Z",
+      "message": "[PerformanceMonitor] ",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    },
+    {
+      "sequence": 40,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T03:49:39.360782Z",
+      "message": "[PerformanceMonitor] ──────────────────────────────────────────────\n",
+      "network": {
+        "types": [
+          "wifi"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T03:49:36.241956Z"
+      },
+      "parameters": {
+        "source": "debugPrint"
+      }
+    }
+  ]
+}
