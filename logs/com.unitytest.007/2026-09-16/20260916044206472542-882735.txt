@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260916044206472542-882735
 Schema   : v1
 Created  : 2026-09-16T04:42:06.472542Z
-Updated  : 2026-09-16T04:46:06.503498Z
+Updated  : 2026-09-16T04:46:22.065920Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (250) ────────────────────────────
+── Events (251) ────────────────────────────
 [#   1 I 2026-09-16T04:42:06.472542Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#   2 I 2026-09-16T04:42:06.510060Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#   3 I 2026-09-16T04:42:06.514585Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -471,6 +471,7 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [# 248 I 2026-09-16T04:43:29.455086Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : hideChat
 [# 249 I 2026-09-16T04:43:34.868799Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : popViewStackChanged
 [# 250 I 2026-09-16T04:43:34.869137Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : closeAllPopUIs
+[# 251 I 2026-09-16T04:46:15.827082Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : L_hideGame
 
 ============================================================
 end of report
