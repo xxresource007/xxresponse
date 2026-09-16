@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "sessionId": "20260916044206472542-882735",
   "createdAt": "2026-09-16T04:42:06.472542Z",
-  "updatedAt": "2026-09-16T04:46:06.503498Z",
+  "updatedAt": "2026-09-16T04:46:22.065920Z",
   "app": {
     "appName": "Easy Win Fun",
     "packageName": "com.unitytest.007",
@@ -4608,6 +4608,24 @@
       "level": "info",
       "recordedAt": "2026-09-16T04:43:34.869137Z",
       "message": "[WEB LOG] [webview] TIP: emit : closeAllPopUIs",
+      "network": {
+        "types": [
+          "wifi",
+          "other"
+        ],
+        "primaryType": "wifi",
+        "capturedAt": "2026-09-16T04:43:12.577768Z"
+      },
+      "parameters": {
+        "source": "print"
+      }
+    },
+    {
+      "sequence": 251,
+      "type": "log",
+      "level": "info",
+      "recordedAt": "2026-09-16T04:46:15.827082Z",
+      "message": "[WEB LOG] [webview] TIP: emit : L_hideGame",
       "network": {
         "types": [
           "wifi",
