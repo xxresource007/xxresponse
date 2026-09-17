@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260917082839974221-baab7b
 Schema   : v1
 Created  : 2026-09-17T08:28:39.974221Z
-Updated  : 2026-09-17T08:29:01.587341Z
+Updated  : 2026-09-17T08:29:03.468355Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (75) ────────────────────────────
+── Events (81) ────────────────────────────
 [#   1 I 2026-09-17T08:28:39.974221Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#   2 I 2026-09-17T08:28:40.010463Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#   3 I 2026-09-17T08:28:40.015148Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -156,6 +156,12 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#  73 I 2026-09-17T08:28:53.719275Z] log <print>{source=print} :: [WEB LOG] [print] ATT 授权结果: TrackingStatus.authorized
 [#  74 I 2026-09-17T08:28:53.735508Z] log <print>{source=print} :: [WEB LOG] [print] 获取到 IDFA: A71AE810-DB6F-4A13-B530-026E1397FB04
 [#  75 I 2026-09-17T08:28:54.239006Z] log <print>{source=print} :: [WEB LOG] [print] MTPush result: {apnsDevice$1=[REDACTED], error: appKey or channelName is empty, skip MTPush init, registrationID: , authorized: false, resCode: -1}
+[#  76 I 2026-09-17T08:29:02.257046Z] log <print>{source=print} :: [WEB LOG] [print] Adjust attributionCallback 
+[#  77 I 2026-09-17T08:29:02.260817Z] log <print>{source=print} :: [WEB LOG] [print] Adjust attributionCallback: {"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No 
+[#  78 I 2026-09-17T08:29:02.262563Z] log <print>{source=print} :: User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null}
+[#  79 I 2026-09-17T08:29:02.268063Z] log <print>{source=print} :: [WEB LOG] [print] Adjust _waitForAdjustAttribution 
+[#  80 I 2026-09-17T08:29:02.269578Z] log <print>{source=print} :: [WEB LOG] [print] Adjust attributionCallback: {"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No 
+[#  81 I 2026-09-17T08:29:02.271655Z] log <print>{source=print} :: User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null}
 
 ============================================================
 end of report
