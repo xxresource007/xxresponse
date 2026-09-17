@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260917082839974221-baab7b
 Schema   : v1
 Created  : 2026-09-17T08:28:39.974221Z
-Updated  : 2026-09-17T08:28:44.321174Z
+Updated  : 2026-09-17T08:28:46.786646Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (24) ────────────────────────────
+── Events (41) ────────────────────────────
 [#   1 I 2026-09-17T08:28:39.974221Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#   2 I 2026-09-17T08:28:40.010463Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#   3 I 2026-09-17T08:28:40.015148Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -62,6 +62,24 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#  22 I 2026-09-17T08:28:43.969670Z] log <print>{source=print} :: [WEB LOG] [print] 112312312312
 [#  23 I 2026-09-17T08:28:43.969946Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig setConfigSettings start
 [#  24 I 2026-09-17T08:28:43.973788Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate start
+[#  25 I 2026-09-17T08:28:45.972061Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成
+[#  26 I 2026-09-17T08:28:45.989763Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
+[#  27 I 2026-09-17T08:28:45.991899Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╔══════════════════════════════════════════════════╗
+[#  28 I 2026-09-17T08:28:45.994148Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║       📈  性能追踪详细报告                       ║
+[#  29 I 2026-09-17T08:28:45.995558Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╠══════════════════════════════════════════════════╣
+[#  30 I 2026-09-17T08:28:45.996548Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 设备: ios                                       ║
+[#  31 I 2026-09-17T08:28:46.000428Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║
+[#  32 I 2026-09-17T08:28:46.002380Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 当前时间: 2026-09-17 04:28:46.000920            ║
+[#  33 I 2026-09-17T08:28:46.003153Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ ⏱️ 总启动耗时: 5993ms                        ║
+[#  34 I 2026-09-17T08:28:46.003880Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╚══════════════════════════════════════════════════╝
+[#  35 I 2026-09-17T08:28:46.004752Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
+[#  36 I 2026-09-17T08:28:46.005654Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ────
+[#  37 I 2026-09-17T08:28:46.008308Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⏳ 1. [Firebase初始化开始     ] → T+  3928ms
+[#  38 I 2026-09-17T08:28:46.011547Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⏳ 2. [Firebase初始化完成     ] → T+  3957ms
+[#  39 I 2026-09-17T08:28:46.012098Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⏳ 3. [启动流程luanchAction开始] → T+  3957ms
+[#  40 I 2026-09-17T08:28:46.012842Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
+[#  41 I 2026-09-17T08:28:46.013878Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
+
 
 ============================================================
 end of report
