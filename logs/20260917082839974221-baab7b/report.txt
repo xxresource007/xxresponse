@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260917082839974221-baab7b
 Schema   : v1
 Created  : 2026-09-17T08:28:39.974221Z
-Updated  : 2026-09-17T08:28:51.176822Z
+Updated  : 2026-09-17T08:28:54.280107Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (72) ────────────────────────────
+── Events (75) ────────────────────────────
 [#   1 I 2026-09-17T08:28:39.974221Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#   2 I 2026-09-17T08:28:40.010463Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#   3 I 2026-09-17T08:28:40.015148Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -153,6 +153,9 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#  70 I 2026-09-17T08:28:47.053480Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+7043ms from start) (+62ms from last)
 [#  71 I 2026-09-17T08:28:49.672048Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Session success: 
 [#  72 I 2026-09-17T08:28:49.675593Z] log <print>{source=print} :: [WEB LOG] [print] xxxxxxxx loop adid=== c15d0c6879bb29178117dac7ae79be3d
+[#  73 I 2026-09-17T08:28:53.719275Z] log <print>{source=print} :: [WEB LOG] [print] ATT 授权结果: TrackingStatus.authorized
+[#  74 I 2026-09-17T08:28:53.735508Z] log <print>{source=print} :: [WEB LOG] [print] 获取到 IDFA: A71AE810-DB6F-4A13-B530-026E1397FB04
+[#  75 I 2026-09-17T08:28:54.239006Z] log <print>{source=print} :: [WEB LOG] [print] MTPush result: {apnsDevice$1=[REDACTED], error: appKey or channelName is empty, skip MTPush init, registrationID: , authorized: false, resCode: -1}
 
 ============================================================
 end of report
