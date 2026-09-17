@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260917082839974221-baab7b
 Schema   : v1
 Created  : 2026-09-17T08:28:39.974221Z
-Updated  : 2026-09-17T08:28:46.786646Z
+Updated  : 2026-09-17T08:28:49.166575Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (41) ────────────────────────────
+── Events (70) ────────────────────────────
 [#   1 I 2026-09-17T08:28:39.974221Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#   2 I 2026-09-17T08:28:40.010463Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#   3 I 2026-09-17T08:28:40.015148Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -80,6 +80,77 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#  40 I 2026-09-17T08:28:46.012842Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
 [#  41 I 2026-09-17T08:28:46.013878Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
 
+[#  42 I 2026-09-17T08:28:46.908813Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate end: true
+[#  43 I 2026-09-17T08:28:46.910426Z] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺
+[#  44 I 2026-09-17T08:28:46.915391Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params count = 10
+[#  45 I 2026-09-17T08:28:46.917063Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustEvent_a = kp1kfi (source=valueRemote)
+[#  46 I 2026-09-17T08:28:46.917638Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustStartEvent = ukwyl1 (source=valueRemote)
+[#  47 I 2026-09-17T08:28:46.918258Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjust$1=[REDACTED] (source=valueRemote)
+[#  48 I 2026-09-17T08:28:46.919327Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl =  (source=valueRemote)
+[#  49 I 2026-09-17T08:28:46.919952Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v2 =  (source=valueRemote)
+[#  50 I 2026-09-17T08:28:46.920626Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v3 =  (source=valueRemote)
+[#  51 I 2026-09-17T08:28:46.921179Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v4 =  (source=valueRemote)
+[#  52 I 2026-09-17T08:28:46.921904Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v5 =  (source=valueRemote)
+[#  53 I 2026-09-17T08:28:46.922570Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v6 =  (source=valueRemote)
+[#  54 I 2026-09-17T08:28:46.923200Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v7 =  (source=valueRemote)
+[#  55 I 2026-09-17T08:28:46.925561Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params json:
+{
+  "adjustEvent_a": {
+    "value": "kp1kfi",
+    "source": "valueRemote"
+  },
+  "adjustStartEvent": {
+    "value": "ukwyl1",
+    "source": "valueRemote"
+  },
+  "adjustToken": {
+    "value": "2qmjzeyhbu0w",
+    "source": "valueRemote"
+  },
+  "remoteurl": {
+    "value": "",
+    "source": "value
+[#  56 I 2026-09-17T08:28:46.926435Z] log <print>{source=print} :: Remote"
+  },
+  "remoteurl_v2": {
+    "value": "",
+    "source": "valueRemote"
+  },
+  "remoteurl_v3": {
+    "value": "",
+    "source": "valueRemote"
+  },
+  "remoteurl_v4": {
+    "value": "",
+    "source": "valueRemote"
+  },
+  "remoteurl_v5": {
+    "value": "",
+    "source": "valueRemote"
+  },
+  "remoteurl_v6": {
+    "value": "",
+    "source": "value
+[#  57 I 2026-09-17T08:28:46.927215Z] log <print>{source=print} :: Remote"
+  },
+  "remoteurl_v7": {
+    "value": "",
+    "source": "valueRemote"
+  }
+}
+[#  58 I 2026-09-17T08:28:46.928174Z] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺
+[#  59 I 2026-09-17T08:28:46.930186Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig remoteurl_v7 = 
+[#  60 I 2026-09-17T08:28:46.930841Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+6920ms from start) (+2962ms from last)
+[#  61 I 2026-09-17T08:28:46.932173Z] log <print>{source=print} :: [WEB LOG] [print] Firebase initialization luanchAction info=
+[#  62 I 2026-09-17T08:28:46.933872Z] log <print>{source=print} :: [WEB LOG] [print] adjustInfo notify cocos enabled=true
+[#  63 I 2026-09-17T08:28:46.934453Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig forceNeedInstallInfo = false
+[#  64 I 2026-09-17T08:28:46.936380Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+6926ms from start) (+5ms from last)
+[#  65 I 2026-09-17T08:28:46.985461Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: SDK initialized successfully
+[#  66 I 2026-09-17T08:28:46.989817Z] log <print>{source=print} :: [WEB LOG] [print] AppsFlyer afDevKey or appId is not available
+[#  67 I 2026-09-17T08:28:46.991513Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+6981ms from start) (+55ms from last)
+[#  68 I 2026-09-17T08:28:46.994227Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig adjustStartEvent = ukwyl1, apfStartEvent = 
+[#  69 I 2026-09-17T08:28:46.998317Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Simple event tracked: kp1kfi
+[#  70 I 2026-09-17T08:28:47.053480Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+7043ms from start) (+62ms from last)
 
 ============================================================
 end of report
