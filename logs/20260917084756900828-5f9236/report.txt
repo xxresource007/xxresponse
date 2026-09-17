@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260917084756900828-5f9236
 Schema   : v1
 Created  : 2026-09-17T08:47:56.900828Z
-Updated  : 2026-09-17T08:48:16.933555Z
+Updated  : 2026-09-17T08:48:36.930885Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -41,7 +41,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (153) ────────────────────────────
+── Events (233) ────────────────────────────
 [#   1 I 2026-09-17T08:47:56.900828Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#   2 I 2026-09-17T08:47:56.936135Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#   3 I 2026-09-17T08:47:56.940862Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -395,6 +395,86 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [# 151 I 2026-09-17T08:48:11.248007Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName s0=  354.0.5
 [# 152 I 2026-09-17T08:48:11.250940Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName m=  354-0-5
 [# 153 I 2026-09-17T08:48:11.252001Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] boot versionDir=%s source=%s 354-0-5 version.json
+[# 154 I 2026-09-17T08:48:17.136068Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: Warning 9200, please go to https://github.com/cocos-creator/engine/blob/master/EngineErrorMap.md#9200 to see details.
+[# 155 I 2026-09-17T08:48:22.825210Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: Cocos Creator v2.4.9
+[# 156 I 2026-09-17T08:48:29.195971Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: web调用原生 [object Object]
+[# 157 I 2026-09-17T08:48:29.196798Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object]
+[# 158 I 2026-09-17T08:48:29.197688Z] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"cc_init_complete"}
+[# 159 I 2026-09-17T08:48:29.200973Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"cc_init_complete"}
+[# 160 I 2026-09-17T08:48:29.201135Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false
+[# 161 I 2026-09-17T08:48:29.201223Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = false
+[# 162 I 2026-09-17T08:48:29.201310Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'
+[# 163 I 2026-09-17T08:48:29.201384Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 52
+[# 164 I 2026-09-17T08:48:29.201477Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully
+[# 165 I 2026-09-17T08:48:29.201544Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: cc_init_complete}
+[# 166 I 2026-09-17T08:48:29.201741Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=cc_init_complete, data=null, jsonLength=52
+[# 167 I 2026-09-17T08:48:29.201863Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=cc_init_complete, data=null
+[# 168 I 2026-09-17T08:48:29.202075Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = Null
+[# 169 I 2026-09-17T08:48:29.202146Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  CC_INIT_COMPLETE case matched
+[# 170 I 2026-09-17T08:48:29.202828Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: web调用原生 [object Object]
+[# 171 I 2026-09-17T08:48:29.203101Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object]
+[# 172 I 2026-09-17T08:48:29.203357Z] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"keep_screen_on","data":1}
+[# 173 I 2026-09-17T08:48:29.203435Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"keep_screen_on","data":1}
+[# 174 I 2026-09-17T08:48:29.203500Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false
+[# 175 I 2026-09-17T08:48:29.203557Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = true
+[# 176 I 2026-09-17T08:48:29.203615Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'
+[# 177 I 2026-09-17T08:48:29.203672Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59
+[# 178 I 2026-09-17T08:48:29.203744Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully
+[# 179 I 2026-09-17T08:48:29.203807Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1}
+[# 180 I 2026-09-17T08:48:29.203864Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59
+[# 181 I 2026-09-17T08:48:29.203919Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1
+[# 182 I 2026-09-17T08:48:29.203988Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int
+[# 183 I 2026-09-17T08:48:29.204052Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched
+[# 184 I 2026-09-17T08:48:29.204115Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <===
+[# 185 I 2026-09-17T08:48:29.204286Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: Spinergy_GameDebug = null
+[# 186 I 2026-09-17T08:48:29.204413Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: initTaHandEvent =  [object Object]
+[# 187 I 2026-09-17T08:48:29.206686Z] log <print>{source=print} :: [WEB LOG] [print] HallJsCall.sendDeviceInfo scheme 参数: {}
+[# 188 I 2026-09-17T08:48:29.206815Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  sendDeviceInfo {device_brand: Apple, device_model: iPhone14,7, language: en_CN, user_agent: Mozilla/5.0, platform: ios, udid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, country_code: en_CN, liuhai_height: 47.0, orientation: landscape, systemVersion: 16.3.1, saferect: 47.0,0.0,47.0,21.0, afid: , idfa: A71AE810-DB6F-4A13-B530-026E1
+[# 189 I 2026-09-17T08:48:29.206889Z] log <print>{source=print} :: 397FB04, idfv: E7273083-1F24-4E68-9BE9-0286E566E914, uuid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, idfv_keychain: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, adjustid: c15d0c6879bb29178117dac7ae79be3d, google_adid: , adjust_installInfo: {"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative
+[# 190 I 2026-09-17T08:48:29.206958Z] log <print>{source=print} :: ":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"ne
+[# 191 I 2026-09-17T08:48:29.207016Z] log <print>{source=print} :: twork\":\"No User Consent\"}","fbInstallReferrer":null}, gp_referrer: , bundleId: com.unitytest.007, afdata: {}, timeZoneName: EDT, cpuCores: 6, isAllowedNoti: false, versionCode: 15, version: 15, versionName: 1.0.8, scheme: {}, langue_record: []}
+[# 192 I 2026-09-17T08:48:29.207188Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  sendDeviceInfo 2 script window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape
+[# 193 I 2026-09-17T08:48:29.207256Z] log <print>{source=print} :: \",\"systemVersion\":\"16.3.1\",\"saferect\":\"47.0,0.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"A71AE810-DB6F-4A13-B530-026E1397FB04\",\"idfv\":\"E7273083-1F24-4E68-9BE9-0286E566E914\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_
+[# 194 I 2026-09-17T08:48:29.207321Z] log <print>{source=print} :: adid\":\"\",\"adjust_installInfo\":\"{\\\"trackerToken\\\":\\\"unattr\\\",\\\"trackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jso
+[# 195 I 2026-09-17T08:48:29.207385Z] log <print>{source=print} :: nResponse\\\":\\\"{\\\\\\\"engagement_time\\\\\\\":\\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\
+[# 196 I 2026-09-17T08:48:29.207453Z] log <print>{source=print} :: \\\",\\\\\\\"installed_at\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versio
+[# 197 I 2026-09-17T08:48:29.207504Z] log <print>{source=print} :: nName\":\"1.0.8\",\"scheme\":{},\"langue_record\":[]}"')
+[# 198 I 2026-09-17T08:48:29.207570Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 1 window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape\",\"systemVers
+[# 199 I 2026-09-17T08:48:29.207689Z] log <print>{source=print} :: ion\":\"16.3.1\",\"saferect\":\"47.0,0.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"A71AE810-DB6F-4A13-B530-026E1397FB04\",\"idfv\":\"E7273083-1F24-4E68-9BE9-0286E566E914\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"a
+[# 200 I 2026-09-17T08:48:29.207751Z] log <print>{source=print} :: djust_installInfo\":\"{\\\"trackerToken\\\":\\\"unattr\\\",\\\"trackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\
+[# 201 I 2026-09-17T08:48:29.207814Z] log <print>{source=print} :: \\"{\\\\\\\"engagement_time\\\\\\\":\\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"in
+[# 202 I 2026-09-17T08:48:29.207874Z] log <print>{source=print} :: stalled_at\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8
+[# 203 I 2026-09-17T08:48:29.207929Z] log <print>{source=print} :: \",\"scheme\":{},\"langue_record\":[]}"')
+[# 204 I 2026-09-17T08:48:29.226937Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 2 window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape\",\"systemVers
+[# 205 I 2026-09-17T08:48:29.227102Z] log <print>{source=print} :: ion\":\"16.3.1\",\"saferect\":\"47.0,0.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"A71AE810-DB6F-4A13-B530-026E1397FB04\",\"idfv\":\"E7273083-1F24-4E68-9BE9-0286E566E914\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"a
+[# 206 I 2026-09-17T08:48:29.227168Z] log <print>{source=print} :: djust_installInfo\":\"{\\\"trackerToken\\\":\\\"unattr\\\",\\\"trackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\
+[# 207 I 2026-09-17T08:48:29.227223Z] log <print>{source=print} :: \\"{\\\\\\\"engagement_time\\\\\\\":\\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"in
+[# 208 I 2026-09-17T08:48:29.227273Z] log <print>{source=print} :: stalled_at\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8
+[# 209 I 2026-09-17T08:48:29.227313Z] log <print>{source=print} :: \",\"scheme\":{},\"langue_record\":[]}"')
+[# 210 I 2026-09-17T08:48:29.227359Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <===
+[# 211 I 2026-09-17T08:48:29.227710Z] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"keep_screen_on","data":1}
+[# 212 I 2026-09-17T08:48:29.227760Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"keep_screen_on","data":1}
+[# 213 I 2026-09-17T08:48:29.227798Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false
+[# 214 I 2026-09-17T08:48:29.227836Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = true
+[# 215 I 2026-09-17T08:48:29.227874Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'
+[# 216 I 2026-09-17T08:48:29.227909Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59
+[# 217 I 2026-09-17T08:48:29.227955Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully
+[# 218 I 2026-09-17T08:48:29.227994Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1}
+[# 219 I 2026-09-17T08:48:29.228029Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59
+[# 220 I 2026-09-17T08:48:29.228063Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1
+[# 221 I 2026-09-17T08:48:29.228101Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int
+[# 222 I 2026-09-17T08:48:29.228137Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched
+[# 223 I 2026-09-17T08:48:29.228171Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <===
+[# 224 I 2026-09-17T08:48:29.330060Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: getConfigs msg===> [object Object]
+[# 225 I 2026-09-17T08:48:29.331691Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: ___send = {"bundle_id":"com.unitytest.007","udid":"015D8F3E-46AE-4DEC-93DC-273457DD41C9","version":354,"ver":"v3.5.4","referer":"https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&cou
+[# 226 I 2026-09-17T08:48:29.332001Z] log <print>{source=print} :: ntry_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C0.0%2C47.0%2C21.0&afid&idfa=A71AE810-DB6F-4A13-B530-026E1397FB04&idfv=E7273083-1F24-4E68-9BE9-0286E566E914&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&ad
+[# 227 I 2026-09-17T08:48:29.332177Z] log <print>{source=print} :: just_installInfo=%7B%22trackerToken%22%3A%22unattr%22%2C%22trackerName%22%3A%22No+User+Consent%22%2C%22network%22%3A%22No+User+Consent%22%2C%22campaign%22%3A%22%22%2C%22adgroup%22%3A%22%22%2C%22creative%22%3A%22%22%2C%22clickLabel%22%3A%22%22%2C%22costType%22%3A%22%22%2C%22costAmount%22%3Anull%2C%22costCurrency%22%3A%22%22%2C%22jsonResponse%22%3A%2
+[# 228 I 2026-09-17T08:48:29.332349Z] log <print>{source=print} :: 2%7B%5C%22engagement_time%5C%22%3A%5C%220001-01-01T00%3A00%3A00Z%5C%22%2C%5C%22tracker_token%5C%22%3A%5C%22unattr%5C%22%2C%5C%22tracker_name%5C%22%3A%5C%22No+User+Consent%5C%22%2C%5C%22is_reattributed%5C%22%3Afalse%2C%5C%22is_redownload_install%5C%22%3Atrue%2C%5C%22first_session_time%5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22installed_at
+[# 229 I 2026-09-17T08:48:29.332456Z] log <print>{source=print} :: %5C%22%3A%5C%222026-09-15T09%3A37%3A24Z%5C%22%2C%5C%22network%5C%22%3A%5C%22No+User+Consent%5C%22%7D%22%2C%22fbInstallReferrer%22%3Anull%7D&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D","timestamp":1789634909,"signa
+[# 230 I 2026-09-17T08:48:29.332507Z] log <print>{source=print} :: ture":"2901e0d318a10ebdd83f6a319044d2585227948d"}
+[# 231 I 2026-09-17T08:48:31.567505Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: STC-- configs [object Object]
+[# 232 I 2026-09-17T08:48:31.569208Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : hideChat
+[# 233 I 2026-09-17T08:48:31.573605Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : hideChat
 
 ============================================================
 end of report
