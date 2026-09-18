@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918024303186239-de0b25
 Schema   : v1
 Created  : 2026-09-18T02:43:03.186239Z
-Updated  : 2026-09-18T02:43:08.468566Z
+Updated  : 2026-09-18T02:43:12.036428Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -21,7 +21,7 @@ OS version    : 16.3.1
 Physical      : yes
 
 ── Network / IP ────────────────────────────────────────
-Type at startup: none
+Type at startup: cellular
 Local IP      : 10.130.69.144
 Local IPv6    : 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, 240a:42c0:1812:d38d:9d24:887d:a33f:3eb, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, fd00:1234:ffff::10
 Captured      : 2026-09-18T02:43:03.902439Z
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (18) ────────────────────────────
+── Events (45) ────────────────────────────
 [#0001 I 2026-09-18T02:43:03.186239Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
 [#0002 I 2026-09-18T02:43:03.224176Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
 [#0003 I 2026-09-18T02:43:03.228788Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
@@ -56,6 +56,34 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#0016 I 2026-09-18T02:43:07.161774Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=4 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0016.png
 [#0017 I 2026-09-18T02:43:08.165004Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=5 url=https://www.apple.com/library/test/success.html?t=1789699388164 📷 0017.png
 [#0018 I 2026-09-18T02:43:08.278097Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=5 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0018.png
+[#0019 I 2026-09-18T02:43:08.980460Z] network_change{previous={types=[none], primaryType=none, capturedAt=2026-09-18T02:43:03.263Z}, current={types=[cellular, other], primaryType=cellular, capturedAt=2026-09-18T02:43:08.980405Z}} 📷 0019.png
+[#0020 I 2026-09-18T02:43:09.281220Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=6 url=https://www.apple.com/library/test/success.html?t=1789699389281 📷 0020.png
+[#0021 I 2026-09-18T02:43:09.597167Z] log <debugPrint>{source=debugPrint} :: Network authorization probe end attempt=6 statusCode=200 success=true 📷 0021.png
+[#0022 I 2026-09-18T02:43:09.604456Z] log <debugPrint>{source=debugPrint} :: Network authorization warmup ready attempt=6 📷 0022.png
+[#0023 I 2026-09-18T02:43:09.701370Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化开始] (+6477ms from start) 📷 0023.png
+[#0024 I 2026-09-18T02:43:09.715199Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化完成] (+6491ms from start) (+13ms from last) 📷 0024.png
+[#0025 I 2026-09-18T02:43:09.715328Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+6491ms from start) (+0ms from last) 📷 0025.png
+[#0026 I 2026-09-18T02:43:09.716634Z] log <print>{source=print} :: [WEB LOG] [print] 112312312312 📷 0026.png
+[#0027 I 2026-09-18T02:43:09.716862Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig setConfigSettings start 📷 0027.png
+[#0028 I 2026-09-18T02:43:09.719090Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate start 📷 0028.png
+[#0029 I 2026-09-18T02:43:11.719222Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成 📷 0029.png
+[#0030 I 2026-09-18T02:43:11.735894Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0030.png
+[#0031 I 2026-09-18T02:43:11.736344Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╔══════════════════════════════════════════════════╗ 📷 0031.png
+[#0032 I 2026-09-18T02:43:11.736649Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║       📈  性能追踪详细报告                       ║ 📷 0032.png
+[#0033 I 2026-09-18T02:43:11.736930Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╠══════════════════════════════════════════════════╣ 📷 0033.png
+[#0034 I 2026-09-18T02:43:11.737478Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 设备: ios                                       ║ 📷 0034.png
+[#0035 I 2026-09-18T02:43:11.739003Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║ 📷 0035.png
+[#0036 I 2026-09-18T02:43:11.739856Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 当前时间: 2026-09-17 22:43:11.739310            ║ 📷 0036.png
+[#0037 I 2026-09-18T02:43:11.740375Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ ⏱️ 总启动耗时: 8516ms                        ║ 📷 0037.png
+[#0038 I 2026-09-18T02:43:11.742921Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╚══════════════════════════════════════════════════╝ 📷 0038.png
+[#0039 I 2026-09-18T02:43:11.743153Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0039.png
+[#0040 I 2026-09-18T02:43:11.743356Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ──── 📷 0040.png
+[#0041 I 2026-09-18T02:43:11.744124Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⚠️ 1. [Firebase初始化开始     ] → T+  6477ms 📷 0041.png
+[#0042 I 2026-09-18T02:43:11.744460Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⚠️ 2. [Firebase初始化完成     ] → T+  6491ms 📷 0042.png
+[#0043 I 2026-09-18T02:43:11.744675Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⚠️ 3. [启动流程luanchAction开始] → T+  6491ms 📷 0043.png
+[#0044 I 2026-09-18T02:43:11.744867Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0044.png
+[#0045 I 2026-09-18T02:43:11.745280Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
+ 📷 0045.png
 
 ============================================================
 end of report
