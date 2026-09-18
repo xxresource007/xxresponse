@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918065328109036-4837e4
 Schema   : v1
 Created  : 2026-09-18T14:53:27.159435+08:00
-Updated  : 2026-09-18T14:53:43.777997+08:00
+Updated  : 2026-09-18T14:53:47.180483+08:00
 Clock    : China Standard Time (UTC+08:00), server-calibrated
 
 ── App ─────────────────────────────────────────────────
@@ -34,7 +34,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (51) ────────────────────────────
+── Events (56) ────────────────────────────
 [#0001 I 2026-09-18T14:53:27.159435+08:00] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#0002 I 2026-09-18T14:53:27.179661+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#0003 I 2026-09-18T14:53:27.194580+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup scheduled after first frame
@@ -87,6 +87,11 @@ Directory     : logs
 [#0049 I 2026-09-18T14:53:43.475062+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+16295ms from start) (+4866ms from last) 📷 0049.png
 [#0050 I 2026-09-18T14:53:43.476454+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+16296ms from start) (+1ms from last)
 [#0051 I 2026-09-18T14:53:43.554212+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+16374ms from start) (+77ms from last)
+[#0052 I 2026-09-18T14:53:44.558958+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [SDK IDs并行获取完成] (+17379ms from start) (+1004ms from last)
+[#0053 I 2026-09-18T14:53:44.564436+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [⏳ 开始等待Adjust ValidIds] (+17384ms from start) (+5ms from last)
+[#0054 I 2026-09-18T14:53:44.565353+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [✅ Adjust ValidIds等待结束] (+17385ms from start) (+0ms from last)
+[#0055 I 2026-09-18T14:53:44.565692+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [🎯 所有SDK归因数据就绪] (+17386ms from start) (+0ms from last)
+[#0056 I 2026-09-18T14:53:44.591013+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+17411ms from start) (+25ms from last)
 
 ============================================================
 end of report
