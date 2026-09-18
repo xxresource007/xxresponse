@@ -1,0 +1,173 @@
+xxresponse session report
+============================================================
+
+Session  : 20260918043429643524-d1957a
+Schema   : v1
+Created  : 2026-09-18T12:34:28.923331+08:00
+Updated  : 2026-09-18T12:35:08.943974+08:00
+Clock    : China Standard Time (UTC+08:00), server-calibrated
+
+── App ─────────────────────────────────────────────────
+Name    : Easy Win Fun
+Package : com.unitytest.007
+Version : 1.0.8 (15)
+
+── Device ──────────────────────────────────────────────
+Platform      : ios
+Model         : iPhone
+Localized     : iPhone
+Machine       : iPhone14,7
+OS            : iOS
+OS version    : 16.3.1
+Physical      : yes
+
+── Network / IP ────────────────────────────────────────
+Type at startup: none
+Local IP      : 10.130.69.144
+Local IPv6    : 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, 240a:42c0:1812:d38d:9d24:887d:a33f:3eb, 240a:42c0:1812:d38d:f400:d1c5:194d:25ad, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, fd00:1234:ffff::10
+Captured      : 2026-09-18T12:34:29.754648+08:00
+
+── Upload ──────────────────────────────────────────────
+Requested     : yes
+Enabled       : yes
+Repository    : xxresource007/xxresponse
+Branch        : main
+Directory     : logs
+
+── Events (86) ────────────────────────────
+[#0001 I 2026-09-18T12:34:28.923331+08:00] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
+[#0002 I 2026-09-18T12:34:28.950611+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
+[#0003 I 2026-09-18T12:34:28.954793+08:00] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
+[#0004 E 2026-09-18T12:34:28.967742+08:00] exception (during runApp){context=during runApp, library=Flutter framework} err={type=FlutterError, message=Zone mismatch.
+The Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuratio... :: Zone mismatch.
+The Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.
+It is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.
+To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`). 📷 0004.png
+[#0005 I 2026-09-18T12:34:28.981272+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup scheduled after first frame 📷 0005.png
+[#0006 I 2026-09-18T12:34:29.726990+08:00] network_change{previous={types=[unknown], primaryType=unknown, capturedAt=}, current={types=[none], primaryType=none, capturedAt=2026-09-18T04:34:30.447114Z}} 📷 0006.png
+[#0007 I 2026-09-18T12:34:28.954793+08:00] step_end app_startup 788ms{step=app_startup, entrypoint=main, startupMode=cold} 📷 0007.png
+[#0008 I 2026-09-18T12:34:29.755161+08:00] network_identity{localIp=10.130.69.144, localIpv4=[10.130.69.144, 10.132.155.176, 192.168.10.41, 198.18.0.1, 172.20.10.1], localIpv6=[240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, ... 📷 0008.png
+[#0009 I 2026-09-18T12:34:29.755739+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup start 📷 0009.png
+[#0010 I 2026-09-18T12:34:29.756796+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789706070476 📷 0010.png
+[#0011 I 2026-09-18T12:34:29.776327+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=1 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0011.png
+[#0012 I 2026-09-18T12:34:30.779373+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=2 url=https://www.apple.com/library/test/success.html?t=1789706071499 📷 0012.png
+[#0013 I 2026-09-18T12:34:30.805487+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=2 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0013.png
+[#0014 I 2026-09-18T12:34:31.809497+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=3 url=https://www.apple.com/library/test/success.html?t=1789706072529 📷 0014.png
+[#0015 I 2026-09-18T12:34:31.930403+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=3 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0015.png
+[#0016 I 2026-09-18T12:34:32.933838+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=4 url=https://www.apple.com/library/test/success.html?t=1789706073653 📷 0016.png
+[#0017 I 2026-09-18T12:34:32.950480+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=4 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0017.png
+[#0018 I 2026-09-18T12:34:33.954514+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=5 url=https://www.apple.com/library/test/success.html?t=1789706074674 📷 0018.png
+[#0019 I 2026-09-18T12:34:34.064688+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=5 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0019.png
+[#0020 I 2026-09-18T12:34:35.067522+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=6 url=https://www.apple.com/library/test/success.html?t=1789706075787 📷 0020.png
+[#0021 I 2026-09-18T12:34:35.084624+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=6 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0021.png
+[#0022 I 2026-09-18T12:34:36.088686+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=7 url=https://www.apple.com/library/test/success.html?t=1789706076808 📷 0022.png
+[#0023 I 2026-09-18T12:34:36.196301+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=7 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0023.png
+[#0024 I 2026-09-18T12:34:37.199272+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=8 url=https://www.apple.com/library/test/success.html?t=1789706077919 📷 0024.png
+[#0025 I 2026-09-18T12:34:37.216181+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=8 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0025.png
+[#0026 I 2026-09-18T12:34:38.219242+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=9 url=https://www.apple.com/library/test/success.html?t=1789706078939 📷 0026.png
+[#0027 I 2026-09-18T12:34:38.329541+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=9 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0027.png
+[#0028 I 2026-09-18T12:34:39.332699+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=10 url=https://www.apple.com/library/test/success.html?t=1789706080052 📷 0028.png
+[#0029 I 2026-09-18T12:34:39.349149+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=10 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0029.png
+[#0030 I 2026-09-18T12:34:40.352803+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=11 url=https://www.apple.com/library/test/success.html?t=1789706081072 📷 0030.png
+[#0031 I 2026-09-18T12:34:40.462248+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=11 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0031.png
+[#0032 I 2026-09-18T12:34:41.465455+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=12 url=https://www.apple.com/library/test/success.html?t=1789706082185 📷 0032.png
+[#0033 I 2026-09-18T12:34:41.481627+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=12 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0033.png
+[#0034 I 2026-09-18T12:34:41.482410+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup gave up after 12 tries 📷 0034.png
+[#0035 I 2026-09-18T12:34:41.501476+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化开始] (+12550ms from start) 📷 0035.png
+[#0036 I 2026-09-18T12:34:41.537907+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化完成] (+12587ms from start) (+36ms from last) 📷 0036.png
+[#0037 I 2026-09-18T12:34:41.538149+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+12587ms from start) (+0ms from last) 📷 0037.png
+[#0038 I 2026-09-18T12:34:41.540724+08:00] log <print>{source=print} :: [WEB LOG] [print] 112312312312 📷 0038.png
+[#0039 I 2026-09-18T12:34:41.541069+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig setConfigSettings start 📷 0039.png
+[#0040 I 2026-09-18T12:34:41.545462+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate start 📷 0040.png
+[#0041 I 2026-09-18T12:34:43.829039+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成 📷 0041.png
+[#0042 I 2026-09-18T12:34:43.845666+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0042.png
+[#0043 I 2026-09-18T12:34:43.845947+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╔══════════════════════════════════════════════════╗ 📷 0043.png
+[#0044 I 2026-09-18T12:34:43.846218+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║       📈  性能追踪详细报告                       ║ 📷 0044.png
+[#0045 I 2026-09-18T12:34:43.846454+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╠══════════════════════════════════════════════════╣ 📷 0045.png
+[#0046 I 2026-09-18T12:34:43.846945+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 设备: ios                                       ║ 📷 0046.png
+[#0047 I 2026-09-18T12:34:43.848116+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║ 📷 0047.png
+[#0048 I 2026-09-18T12:34:43.849777+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 当前时间: 2026-09-18 00:34:44.568581            ║ 📷 0048.png
+[#0049 I 2026-09-18T12:34:43.850103+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ ⏱️ 总启动耗时: 14899ms                       ║ 📷 0049.png
+[#0050 I 2026-09-18T12:34:43.850283+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╚══════════════════════════════════════════════════╝ 📷 0050.png
+[#0051 I 2026-09-18T12:34:43.850456+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0051.png
+[#0052 I 2026-09-18T12:34:43.850624+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ──── 📷 0052.png
+[#0053 I 2026-09-18T12:34:43.851303+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 1. [Firebase初始化开始     ] → T+ 12550ms 📷 0053.png
+[#0054 I 2026-09-18T12:34:43.851525+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 2. [Firebase初始化完成     ] → T+ 12587ms 📷 0054.png
+[#0055 I 2026-09-18T12:34:43.851714+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 3. [启动流程luanchAction开始] → T+ 12587ms 📷 0055.png
+[#0056 I 2026-09-18T12:34:43.851874+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0056.png
+[#0057 I 2026-09-18T12:34:43.852152+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
+ 📷 0057.png
+[#0058 I 2026-09-18T12:34:44.986645+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate end: true 📷 0058.png
+[#0059 I 2026-09-18T12:34:44.986988+08:00] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺 📷 0059.png
+[#0060 I 2026-09-18T12:34:44.988016+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params count = 10 📷 0060.png
+[#0061 I 2026-09-18T12:34:44.988263+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustEvent_a = kp1kfi (source=valueRemote) 📷 0061.png
+[#0062 I 2026-09-18T12:34:44.988370+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustStartEvent = ukwyl1 (source=valueRemote) 📷 0062.png
+[#0063 I 2026-09-18T12:34:44.988479+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjust$1=[REDACTED] (source=valueRemote) 📷 0063.png
+[#0064 I 2026-09-18T12:34:44.988606+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0064.png
+[#0065 I 2026-09-18T12:34:44.988689+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v2 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0065.png
+[#0066 I 2026-09-18T12:34:44.988757+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v3 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0066.png
+[#0067 I 2026-09-18T12:34:44.988827+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v4 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0067.png
+[#0068 I 2026-09-18T12:34:44.988890+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v5 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0068.png
+[#0069 I 2026-09-18T12:34:44.988965+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v6 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0069.png
+[#0070 I 2026-09-18T12:34:44.989037+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0070.png
+[#0071 I 2026-09-18T12:34:44.989364+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params json:
+{
+  "adjustEvent_a": {
+    "value": "kp1kfi",
+    "source": "valueRemote"
+  },
+  "adjustStartEvent": {
+    "value": "ukwyl1",
+    "source": "valueRemote"
+  },
+  "adjustToken": {
+    "value": "2qmjzeyhbu0w",
+    "source": "valueRemote"
+  },
+  "remoteurl": {
+    "value": "https://cdn.sweep-spin. 📷 0071.png
+[#0072 I 2026-09-18T12:34:44.989481+08:00] log <print>{source=print} :: com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v2": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v3": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v4": {
+    "value": "http 📷 0072.png
+[#0073 I 2026-09-18T12:34:44.989584+08:00] log <print>{source=print} :: s://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v5": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v6": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v7": { 📷 0073.png
+[#0074 I 2026-09-18T12:34:44.989657+08:00] log <print>{source=print} :: 
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  }
+} 📷 0074.png
+[#0075 I 2026-09-18T12:34:44.989729+08:00] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺 📷 0075.png
+[#0076 I 2026-09-18T12:34:44.990053+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html 📷 0076.png
+[#0077 I 2026-09-18T12:34:44.990146+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+16039ms from start) (+3451ms from last) 📷 0077.png
+[#0078 I 2026-09-18T12:34:44.990314+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase initialization luanchAction info=https://cdn.sweep-spin.com/ios_web/release/index.html 📷 0078.png
+[#0079 I 2026-09-18T12:34:44.990610+08:00] log <print>{source=print} :: [WEB LOG] [print] adjustInfo notify cocos enabled=true 📷 0079.png
+[#0080 I 2026-09-18T12:34:44.990674+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig forceNeedInstallInfo = false 📷 0080.png
+[#0081 I 2026-09-18T12:34:44.990824+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+16040ms from start) (+0ms from last) 📷 0081.png
+[#0082 I 2026-09-18T12:34:45.001454+08:00] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: SDK initialized successfully 📷 0082.png
+[#0083 I 2026-09-18T12:34:45.002432+08:00] log <print>{source=print} :: [WEB LOG] [print] AppsFlyer afDevKey or appId is not available 📷 0083.png
+[#0084 I 2026-09-18T12:34:45.002549+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+16052ms from start) (+11ms from last) 📷 0084.png
+[#0085 I 2026-09-18T12:34:45.002856+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig adjustStartEvent = ukwyl1, apfStartEvent =  📷 0085.png
+[#0086 I 2026-09-18T12:34:45.003588+08:00] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Simple event tracked: kp1kfi 📷 0086.png
+
+============================================================
+end of report
