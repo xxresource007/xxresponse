@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918024303186239-de0b25
 Schema   : v1
 Created  : 2026-09-18T02:43:03.186239Z
-Updated  : 2026-09-18T02:43:24.086729Z
+Updated  : 2026-09-18T02:43:31.376753Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (156) ────────────────────────────
+── Events (229) ────────────────────────────
 [#0001 I 2026-09-18T02:43:03.186239Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
 [#0002 I 2026-09-18T02:43:03.224176Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
 [#0003 I 2026-09-18T02:43:03.228788Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
@@ -377,6 +377,79 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
  📷 0154.png
 [#0155 I 2026-09-18T02:43:21.557835Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo notify cocos result=missing_handler 📷 0155.png
 [#0156 I 2026-09-18T02:43:23.786139Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: Warning 9200, please go to https://github.com/cocos-creator/engine/blob/master/EngineErrorMap.md#9200 to see details. 📷 0156.png
+[#0157 I 2026-09-18T02:43:27.020760Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: Cocos Creator v2.4.9 📷 0157.png
+[#0158 I 2026-09-18T02:43:31.074226Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: web调用原生 [object Object] 📷 0158.png
+[#0159 I 2026-09-18T02:43:31.240106Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object] 📷 0159.png
+[#0160 I 2026-09-18T02:43:31.240691Z] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"cc_init_complete"} 📷 0160.png
+[#0161 I 2026-09-18T02:43:31.242388Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"cc_init_complete"} 📷 0161.png
+[#0162 I 2026-09-18T02:43:31.242475Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false 📷 0162.png
+[#0163 I 2026-09-18T02:43:31.242515Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = false 📷 0163.png
+[#0164 I 2026-09-18T02:43:31.242548Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController' 📷 0164.png
+[#0165 I 2026-09-18T02:43:31.242577Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 52 📷 0165.png
+[#0166 I 2026-09-18T02:43:31.242611Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully 📷 0166.png
+[#0167 I 2026-09-18T02:43:31.242642Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: cc_init_complete} 📷 0167.png
+[#0168 I 2026-09-18T02:43:31.242673Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=cc_init_complete, data=null, jsonLength=52 📷 0168.png
+[#0169 I 2026-09-18T02:43:31.242697Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=cc_init_complete, data=null 📷 0169.png
+[#0170 I 2026-09-18T02:43:31.242723Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = Null 📷 0170.png
+[#0171 I 2026-09-18T02:43:31.242749Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  CC_INIT_COMPLETE case matched 📷 0171.png
+[#0172 I 2026-09-18T02:43:31.243014Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: web调用原生 [object Object] 📷 0172.png
+[#0173 I 2026-09-18T02:43:31.243122Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object] 📷 0173.png
+[#0174 I 2026-09-18T02:43:31.243231Z] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"keep_screen_on","data":1} 📷 0174.png
+[#0175 I 2026-09-18T02:43:31.243260Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"keep_screen_on","data":1} 📷 0175.png
+[#0176 I 2026-09-18T02:43:31.243285Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false 📷 0176.png
+[#0177 I 2026-09-18T02:43:31.243311Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = true 📷 0177.png
+[#0178 I 2026-09-18T02:43:31.243337Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController' 📷 0178.png
+[#0179 I 2026-09-18T02:43:31.243361Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59 📷 0179.png
+[#0180 I 2026-09-18T02:43:31.243390Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully 📷 0180.png
+[#0181 I 2026-09-18T02:43:31.243415Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1} 📷 0181.png
+[#0182 I 2026-09-18T02:43:31.243439Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59 📷 0182.png
+[#0183 I 2026-09-18T02:43:31.243461Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1 📷 0183.png
+[#0184 I 2026-09-18T02:43:31.243488Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int 📷 0184.png
+[#0185 I 2026-09-18T02:43:31.243517Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched 📷 0185.png
+[#0186 I 2026-09-18T02:43:31.243539Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <=== 📷 0186.png
+[#0187 I 2026-09-18T02:43:31.243615Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: Spinergy_GameDebug = null 📷 0187.png
+[#0188 I 2026-09-18T02:43:31.243681Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: initTaHandEvent =  [object Object] 📷 0188.png
+[#0189 I 2026-09-18T02:43:31.243759Z] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"keep_screen_on","data":1} 📷 0189.png
+[#0190 I 2026-09-18T02:43:31.243866Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"keep_screen_on","data":1} 📷 0190.png
+[#0191 I 2026-09-18T02:43:31.243890Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false 📷 0191.png
+[#0192 I 2026-09-18T02:43:31.243912Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = true 📷 0192.png
+[#0193 I 2026-09-18T02:43:31.243940Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController' 📷 0193.png
+[#0194 I 2026-09-18T02:43:31.243975Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59 📷 0194.png
+[#0195 I 2026-09-18T02:43:31.244173Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully 📷 0195.png
+[#0196 I 2026-09-18T02:43:31.244209Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1} 📷 0196.png
+[#0197 I 2026-09-18T02:43:31.244233Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59 📷 0197.png
+[#0198 I 2026-09-18T02:43:31.244260Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1 📷 0198.png
+[#0199 I 2026-09-18T02:43:31.244284Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int 📷 0199.png
+[#0200 I 2026-09-18T02:43:31.244307Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched 📷 0200.png
+[#0201 I 2026-09-18T02:43:31.244329Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <=== 📷 0201.png
+[#0202 I 2026-09-18T02:43:31.246114Z] log <print>{source=print} :: [WEB LOG] [print] HallJsCall.sendDeviceInfo scheme 参数: {} 📷 0202.png
+[#0203 I 2026-09-18T02:43:31.246187Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  sendDeviceInfo {device_brand: Apple, device_model: iPhone14,7, language: en_CN, user_agent: Mozilla/5.0, platform: ios, udid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, country_code: en_CN, liuhai_height: 47.0, orientation: landscape, systemVersion: 16.3.1, saferect: 47.0,0.0,47.0,21.0, afid: , idfa: , idfv: 06D57FDD-FA2A-4975-AB 📷 0203.png
+[#0204 I 2026-09-18T02:43:31.246242Z] log <print>{source=print} :: 0F-6057BE5D6171, uuid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, idfv_keychain: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, adjustid: c15d0c6879bb29178117dac7ae79be3d, google_adid: , adjust_installInfo: {"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":""," 📷 0204.png
+[#0205 I 2026-09-18T02:43:31.246278Z] log <print>{source=print} :: costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbIns 📷 0205.png
+[#0206 I 2026-09-18T02:43:31.246303Z] log <print>{source=print} :: tallReferrer":null}, gp_referrer: , bundleId: com.unitytest.007, afdata: {}, timeZoneName: EDT, cpuCores: 6, isAllowedNoti: false, versionCode: 15, version: 15, versionName: 1.0.8, scheme: {}, langue_record: []} 📷 0206.png
+[#0207 I 2026-09-18T02:43:31.247009Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  sendDeviceInfo 2 script window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape 📷 0207.png
+[#0208 I 2026-09-18T02:43:31.247068Z] log <print>{source=print} :: \",\"systemVersion\":\"16.3.1\",\"saferect\":\"47.0,0.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"\",\"idfv\":\"06D57FDD-FA2A-4975-AB0F-6057BE5D6171\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"adjust_installInfo\":\ 📷 0208.png
+[#0209 I 2026-09-18T02:43:31.247107Z] log <print>{source=print} :: "{\\\"trackerToken\\\":\\\"unattr\\\",\\\"trackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\\\"{\\\\\\\"engagemen 📷 0209.png
+[#0210 I 2026-09-18T02:43:31.247258Z] log <print>{source=print} :: t_time\\\\\\\":\\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"installed_at\\\\\\\":\\ 📷 0210.png
+[#0211 I 2026-09-18T02:43:31.247457Z] log <print>{source=print} :: \\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8\",\"scheme\":{},\"la 📷 0211.png
+[#0212 I 2026-09-18T02:43:31.247553Z] log <print>{source=print} :: ngue_record\":[]}"') 📷 0212.png
+[#0213 I 2026-09-18T02:43:31.247635Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 1 window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape\",\"systemVers 📷 0213.png
+[#0214 I 2026-09-18T02:43:31.247674Z] log <print>{source=print} :: ion\":\"16.3.1\",\"saferect\":\"47.0,0.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"\",\"idfv\":\"06D57FDD-FA2A-4975-AB0F-6057BE5D6171\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"adjust_installInfo\":\"{\\\"trackerTo 📷 0214.png
+[#0215 I 2026-09-18T02:43:31.247712Z] log <print>{source=print} :: ken\\\":\\\"unattr\\\",\\\"trackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\\\"{\\\\\\\"engagement_time\\\\\\\": 📷 0215.png
+[#0216 I 2026-09-18T02:43:31.247746Z] log <print>{source=print} :: \\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"installed_at\\\\\\\":\\\\\\\"2026-09-1 📷 0216.png
+[#0217 I 2026-09-18T02:43:31.247779Z] log <print>{source=print} :: 5T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8\",\"scheme\":{},\"langue_record\":[ 📷 0217.png
+[#0218 I 2026-09-18T02:43:31.247805Z] log <print>{source=print} :: ]}"') 📷 0218.png
+[#0219 I 2026-09-18T02:43:31.251037Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: getConfigs msg===> [object Object] 📷 0219.png
+[#0220 I 2026-09-18T02:43:31.252356Z] log <print>{source=print} :: [WEB LOG] [webview] TIP: ___send = {"bundle_id":"com.unitytest.007","udid":"015D8F3E-46AE-4DEC-93DC-273457DD41C9","version":354,"ver":"v3.5.4","referer":"https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&cou 📷 0220.png
+[#0221 I 2026-09-18T02:43:31.252504Z] log <print>{source=print} :: ntry_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C0.0%2C47.0%2C21.0&afid&idfa&idfv=06D57FDD-FA2A-4975-AB0F-6057BE5D6171&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId 📷 0221.png
+[#0222 I 2026-09-18T02:43:31.252585Z] log <print>{source=print} :: =com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D","timestamp":1789699411,"signature":"fbfe65d5157c690cb3df1ab1c8a9ca38f8dc69d2"} 📷 0222.png
+[#0223 I 2026-09-18T02:43:31.253181Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 2 window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape\",\"systemVers 📷 0223.png
+[#0224 I 2026-09-18T02:43:31.253275Z] log <print>{source=print} :: ion\":\"16.3.1\",\"saferect\":\"47.0,0.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"\",\"idfv\":\"06D57FDD-FA2A-4975-AB0F-6057BE5D6171\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"adjust_installInfo\":\"{\\\"trackerTo 📷 0224.png
+[#0225 I 2026-09-18T02:43:31.253317Z] log <print>{source=print} :: ken\\\":\\\"unattr\\\",\\\"trackerName\\\":\\\"No User Consent\\\",\\\"network\\\":\\\"No User Consent\\\",\\\"campaign\\\":\\\"\\\",\\\"adgroup\\\":\\\"\\\",\\\"creative\\\":\\\"\\\",\\\"clickLabel\\\":\\\"\\\",\\\"costType\\\":\\\"\\\",\\\"costAmount\\\":null,\\\"costCurrency\\\":\\\"\\\",\\\"jsonResponse\\\":\\\"{\\\\\\\"engagement_time\\\\\\\": 📷 0225.png
+[#0226 I 2026-09-18T02:43:31.253353Z] log <print>{source=print} :: \\\\\\\"0001-01-01T00:00:00Z\\\\\\\",\\\\\\\"tracker_token\\\\\\\":\\\\\\\"unattr\\\\\\\",\\\\\\\"tracker_name\\\\\\\":\\\\\\\"No User Consent\\\\\\\",\\\\\\\"is_reattributed\\\\\\\":false,\\\\\\\"is_redownload_install\\\\\\\":true,\\\\\\\"first_session_time\\\\\\\":\\\\\\\"2026-09-15T09:37:24Z\\\\\\\",\\\\\\\"installed_at\\\\\\\":\\\\\\\"2026-09-1 📷 0226.png
+[#0227 I 2026-09-18T02:43:31.253390Z] log <print>{source=print} :: 5T09:37:24Z\\\\\\\",\\\\\\\"network\\\\\\\":\\\\\\\"No User Consent\\\\\\\"}\\\",\\\"fbInstallReferrer\\\":null}\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8\",\"scheme\":{},\"langue_record\":[ 📷 0227.png
+[#0228 I 2026-09-18T02:43:31.253416Z] log <print>{source=print} :: ]}"') 📷 0228.png
+[#0229 I 2026-09-18T02:43:31.253445Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <=== 📷 0229.png
 
 ============================================================
 end of report
