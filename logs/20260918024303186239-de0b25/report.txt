@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918024303186239-de0b25
 Schema   : v1
 Created  : 2026-09-18T02:43:03.186239Z
-Updated  : 2026-09-18T02:43:12.036428Z
+Updated  : 2026-09-18T02:43:17.071492Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (45) ────────────────────────────
+── Events (113) ────────────────────────────
 [#0001 I 2026-09-18T02:43:03.186239Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
 [#0002 I 2026-09-18T02:43:03.224176Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
 [#0003 I 2026-09-18T02:43:03.228788Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
@@ -84,6 +84,201 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#0044 I 2026-09-18T02:43:11.744867Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0044.png
 [#0045 I 2026-09-18T02:43:11.745280Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
  📷 0045.png
+[#0046 I 2026-09-18T02:43:14.216602Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate end: true 📷 0046.png
+[#0047 I 2026-09-18T02:43:14.217011Z] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺 📷 0047.png
+[#0048 I 2026-09-18T02:43:14.218246Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params count = 10 📷 0048.png
+[#0049 I 2026-09-18T02:43:14.218487Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustEvent_a = kp1kfi (source=valueRemote) 📷 0049.png
+[#0050 I 2026-09-18T02:43:14.218580Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustStartEvent = ukwyl1 (source=valueRemote) 📷 0050.png
+[#0051 I 2026-09-18T02:43:14.218661Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjust$1=[REDACTED] (source=valueRemote) 📷 0051.png
+[#0052 I 2026-09-18T02:43:14.218804Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0052.png
+[#0053 I 2026-09-18T02:43:14.218891Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v2 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0053.png
+[#0054 I 2026-09-18T02:43:14.218965Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v3 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0054.png
+[#0055 I 2026-09-18T02:43:14.219048Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v4 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0055.png
+[#0056 I 2026-09-18T02:43:14.219118Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v5 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0056.png
+[#0057 I 2026-09-18T02:43:14.219231Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v6 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0057.png
+[#0058 I 2026-09-18T02:43:14.219356Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote) 📷 0058.png
+[#0059 I 2026-09-18T02:43:14.219786Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params json:
+{
+  "adjustEvent_a": {
+    "value": "kp1kfi",
+    "source": "valueRemote"
+  },
+  "adjustStartEvent": {
+    "value": "ukwyl1",
+    "source": "valueRemote"
+  },
+  "adjustToken": {
+    "value": "2qmjzeyhbu0w",
+    "source": "valueRemote"
+  },
+  "remoteurl": {
+    "value": "https://cdn.sweep-spin. 📷 0059.png
+[#0060 I 2026-09-18T02:43:14.219904Z] log <print>{source=print} :: com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v2": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v3": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v4": {
+    "value": "http 📷 0060.png
+[#0061 I 2026-09-18T02:43:14.220014Z] log <print>{source=print} :: s://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v5": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v6": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v7": { 📷 0061.png
+[#0062 I 2026-09-18T02:43:14.220091Z] log <print>{source=print} :: 
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  }
+} 📷 0062.png
+[#0063 I 2026-09-18T02:43:14.220158Z] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺 📷 0063.png
+[#0064 I 2026-09-18T02:43:14.220457Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html 📷 0064.png
+[#0065 I 2026-09-18T02:43:14.220547Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+10996ms from start) (+4505ms from last) 📷 0065.png
+[#0066 I 2026-09-18T02:43:14.220751Z] log <print>{source=print} :: [WEB LOG] [print] Firebase initialization luanchAction info=https://cdn.sweep-spin.com/ios_web/release/index.html 📷 0066.png
+[#0067 I 2026-09-18T02:43:14.221045Z] log <print>{source=print} :: [WEB LOG] [print] adjustInfo notify cocos enabled=true 📷 0067.png
+[#0068 I 2026-09-18T02:43:14.221120Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig forceNeedInstallInfo = false 📷 0068.png
+[#0069 I 2026-09-18T02:43:14.221267Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+10997ms from start) (+0ms from last) 📷 0069.png
+[#0070 I 2026-09-18T02:43:14.300821Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: SDK initialized successfully 📷 0070.png
+[#0071 I 2026-09-18T02:43:14.301298Z] log <print>{source=print} :: [WEB LOG] [print] AppsFlyer afDevKey or appId is not available 📷 0071.png
+[#0072 I 2026-09-18T02:43:14.301364Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+11077ms from start) (+80ms from last) 📷 0072.png
+[#0073 I 2026-09-18T02:43:14.301573Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig adjustStartEvent = ukwyl1, apfStartEvent =  📷 0073.png
+[#0074 I 2026-09-18T02:43:14.302117Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Simple event tracked: kp1kfi 📷 0074.png
+[#0075 I 2026-09-18T02:43:15.006825Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Session success:  📷 0075.png
+[#0076 I 2026-09-18T02:43:15.007519Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [SDK IDs并行获取完成] (+11783ms from start) (+706ms from last) 📷 0076.png
+[#0077 I 2026-09-18T02:43:15.007950Z] log <print>{source=print} :: [WEB LOG] [print] results [c15d0c6879bb29178117dac7ae79be3d, , ] 📷 0077.png
+[#0078 I 2026-09-18T02:43:15.009276Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig: _isWhiteByName iPhone 📷 0078.png
+[#0079 I 2026-09-18T02:43:15.009388Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig: not in whitelist 📷 0079.png
+[#0080 I 2026-09-18T02:43:15.009534Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig: getSource false 📷 0080.png
+[#0081 I 2026-09-18T02:43:15.009717Z] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig maxRetry = 200 📷 0081.png
+[#0082 I 2026-09-18T02:43:15.009767Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [⏳ 开始等待Adjust ValidIds] (+11786ms from start) (+2ms from last) 📷 0082.png
+[#0083 I 2026-09-18T02:43:15.010067Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [✅ Adjust ValidIds等待结束] (+11786ms from start) (+0ms from last) 📷 0083.png
+[#0084 I 2026-09-18T02:43:15.010148Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [🎯 所有SDK归因数据就绪] (+11786ms from start) (+0ms from last) 📷 0084.png
+[#0085 I 2026-09-18T02:43:15.010475Z] log <print>{source=print} :: [WEB LOG] [print] Attribution ready snapshot:
+{
+  "stage": "after_wait_valid_ids",
+  "source": false,
+  "forceNeedInstallInfo": false,
+  "assertInstallInfoNotNull": false,
+  "maxRetry": 200,
+  "adjust": {
+    "hasConfig": true,
+    "ajid": "c15d0c6879bb29178117dac7ae79be3d",
+    "ajidReady": true,
+    "ajDataReady": false,
+    "ajData": ""
+  },
+  "a 📷 0085.png
+[#0086 I 2026-09-18T02:43:15.010529Z] log <print>{source=print} :: ppsflyer": {
+    "hasConfig": false,
+    "afid": "",
+    "afidReady": false,
+    "afDataReady": false,
+    "afData": ""
+  }
+} 📷 0086.png
+[#0087 I 2026-09-18T02:43:15.010616Z] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Simple event tracked: ukwyl1 📷 0087.png
+[#0088 I 2026-09-18T02:43:15.011184Z] log <print>{source=print} :: [WEB LOG] [print] results url=https://cdn.sweep-spin.com/ios_web/release/index.html 📷 0088.png
+[#0089 I 2026-09-18T02:43:15.011429Z] log <print>{source=print} :: [WEB LOG] [print] DeepLink scheme data: {} 📷 0089.png
+[#0090 I 2026-09-18T02:43:15.013344Z] log <print>{source=print} :: [WEB LOG] [print] Launch deviceInfo json:
+{
+  "device_brand": "Apple",
+  "device_model": "iPhone14,7",
+  "language": "en_CN",
+  "user_agent": "Mozilla/5.0",
+  "platform": "ios",
+  "udid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "country_code": "en_CN",
+  "liuhai_height": 47.0,
+  "orientation": "landscape",
+  "systemVersion": "16.3.1",
+  "saferect" 📷 0090.png
+[#0091 I 2026-09-18T02:43:15.013425Z] log <print>{source=print} :: : "47.0,0.0,47.0,21.0",
+  "afid": "",
+  "idfa": "",
+  "idfv": "06D57FDD-FA2A-4975-AB0F-6057BE5D6171",
+  "uuid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "idfv_keychain": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "adjustid": "c15d0c6879bb29178117dac7ae79be3d",
+  "google_adid": "",
+  "adjust_installInfo": "",
+  "gp_referrer": "",
+  "bundleId": "com. 📷 0091.png
+[#0092 I 2026-09-18T02:43:15.013467Z] log <print>{source=print} :: unitytest.007",
+  "afdata": {},
+  "timeZoneName": "EDT",
+  "cpuCores": 6,
+  "isAllowedNoti": false,
+  "versionCode": "15",
+  "version": "15",
+  "versionName": "1.0.8",
+  "scheme": {},
+  "langue_record": []
+} 📷 0092.png
+[#0093 I 2026-09-18T02:43:15.013749Z] log <print>{source=print} :: [WEB LOG] [print] ~~~~~~~~results url=https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C0.0%2C47.0%2C21.0&afid 📷 0093.png
+[#0094 I 2026-09-18T02:43:15.013807Z] log <print>{source=print} :: &idfa&idfv=06D57FDD-FA2A-4975-AB0F-6057BE5D6171&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionNa 📷 0094.png
+[#0095 I 2026-09-18T02:43:15.013845Z] log <print>{source=print} :: me=1.0.8&scheme=%7B%7D&langue_record=%5B%5D 📷 0095.png
+[#0096 I 2026-09-18T02:43:15.015348Z] log <print>{source=print} :: [WEB LOG] [print] Merged launch url: https://cdn.sweep-spin.com/ios_web/release/index.html 📷 0096.png
+[#0097 I 2026-09-18T02:43:15.015422Z] log <print>{source=print} :: [WEB LOG] [print] Merged launch query:
+{
+  "device_brand": "Apple",
+  "device_model": "iPhone14,7",
+  "language": "en_CN",
+  "user_agent": "Mozilla/5.0",
+  "platform": "ios",
+  "udid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "country_code": "en_CN",
+  "liuhai_height": "47.0",
+  "orientation": "landscape",
+  "systemVersion": "16.3.1",
+  "saferect": 📷 0097.png
+[#0098 I 2026-09-18T02:43:15.015480Z] log <print>{source=print} ::  "47.0,0.0,47.0,21.0",
+  "afid": "",
+  "idfa": "",
+  "idfv": "06D57FDD-FA2A-4975-AB0F-6057BE5D6171",
+  "uuid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "idfv_keychain": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "adjustid": "c15d0c6879bb29178117dac7ae79be3d",
+  "google_adid": "",
+  "adjust_installInfo": "",
+  "gp_referrer": "",
+  "bundleId": "com.u 📷 0098.png
+[#0099 I 2026-09-18T02:43:15.015523Z] log <print>{source=print} :: nitytest.007",
+  "afdata": "{}",
+  "timeZoneName": "EDT",
+  "cpuCores": "6",
+  "isAllowedNoti": "false",
+  "versionCode": "15",
+  "version": "15",
+  "versionName": "1.0.8",
+  "scheme": "{}",
+  "langue_record": "[]"
+} 📷 0099.png
+[#0100 I 2026-09-18T02:43:15.023347Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+11799ms from start) (+13ms from last) 📷 0100.png
+[#0101 I 2026-09-18T02:43:15.037189Z] log <print>{source=print} :: [WEB LOG] [deal] HallController remoteUrl=>  https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C0.0%2C47.0%2C21 📷 0101.png
+[#0102 I 2026-09-18T02:43:15.037249Z] log <print>{source=print} :: .0&afid&idfa&idfv=06D57FDD-FA2A-4975-AB0F-6057BE5D6171&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&ve 📷 0102.png
+[#0103 I 2026-09-18T02:43:15.037279Z] log <print>{source=print} :: rsionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D 📷 0103.png
+[#0104 I 2026-09-18T02:43:15.037321Z] log <print>{source=print} :: [WEB LOG] [deal] HallController codeWhenLoadedCompleted=>   📷 0104.png
+[#0105 I 2026-09-18T02:43:15.037363Z] log <print>{source=print} :: [WEB LOG] [deal] HallController schemeData=>  {} 📷 0105.png
+[#0106 I 2026-09-18T02:43:15.098141Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  bind native onEngagelabRegistrationId callback 📷 0106.png
+[#0107 I 2026-09-18T02:43:15.098581Z] log <print>{source=print} :: [WEB LOG] [deal] _getHandlerName winnerNative 📷 0107.png
+[#0108 I 2026-09-18T02:43:15.098720Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo cache not ready reason=hall_bind {ajid: c15d0c6879bb29178117dac7ae79be3d, ajData: , afid: , afData: } 📷 0108.png
+[#0109 I 2026-09-18T02:43:16.769513Z] log <print>{source=print} :: [WEB LOG] [print] xxxxxxxx loop adid=== c15d0c6879bb29178117dac7ae79be3d 📷 0109.png
+[#0110 I 2026-09-18T02:43:16.850951Z] log <print>{source=print} :: [WEB LOG] [webview] onLoadStart: https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C0.0%2C47.0%2C21.0&afid&idfa 📷 0110.png
+[#0111 I 2026-09-18T02:43:16.852320Z] log <print>{source=print} :: &idfv=06D57FDD-FA2A-4975-AB0F-6057BE5D6171&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1. 📷 0111.png
+[#0112 I 2026-09-18T02:43:16.852375Z] log <print>{source=print} :: 0.8&scheme=%7B%7D&langue_record=%5B%5D 📷 0112.png
+[#0113 I 2026-09-18T02:43:17.060631Z] log <print>{source=print} :: [WEB LOG] [deal] HallController sending scheme to JS: {} 📷 0113.png
 
 ============================================================
 end of report
