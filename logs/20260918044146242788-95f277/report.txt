@@ -1,0 +1,370 @@
+xxresponse session report
+============================================================
+
+Session  : 20260918044146242788-95f277
+Schema   : v1
+Created  : 2026-09-18T12:41:45.522595+08:00
+Updated  : 2026-09-18T12:42:09.035436+08:00
+Clock    : China Standard Time (UTC+08:00), server-calibrated
+
+── App ─────────────────────────────────────────────────
+Name    : Easy Win Fun
+Package : com.unitytest.007
+Version : 1.0.8 (15)
+
+── Device ──────────────────────────────────────────────
+Platform      : ios
+Model         : iPhone
+Localized     : iPhone
+Machine       : iPhone14,7
+OS            : iOS
+OS version    : 16.3.1
+Physical      : yes
+
+── Network / IP ────────────────────────────────────────
+Type at startup: cellular
+Local IP      : 10.130.69.144
+Local IPv6    : 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, 240a:42c0:1812:d38d:9d24:887d:a33f:3eb, 240a:42c0:1812:d38d:f400:d1c5:194d:25ad, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, fd00:1234:ffff::10
+Public IP     : 172.236.242.140
+ISP           : Akamai Technologies, Inc.
+Address       : United States / California / Los Angeles / 90096
+Country       : United States
+Region        : California
+City          : Los Angeles
+Postal        : 90096
+Lat/Lon       : 34.0522293,-118.2436823
+Captured      : 2026-09-18T12:41:48.260983+08:00
+
+── Upload ──────────────────────────────────────────────
+Requested     : yes
+Enabled       : yes
+Repository    : xxresource007/xxresponse
+Branch        : main
+Directory     : logs
+
+── Events (190) ────────────────────────────
+[#0001 I 2026-09-18T12:41:45.522595+08:00] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
+[#0002 I 2026-09-18T12:41:45.549660+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
+[#0003 I 2026-09-18T12:41:45.554052+08:00] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
+[#0004 E 2026-09-18T12:41:45.568218+08:00] exception (during runApp){context=during runApp, library=Flutter framework} err={type=FlutterError, message=Zone mismatch.
+The Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuratio... :: Zone mismatch.
+The Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.
+It is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.
+To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`). 📷 0004.png
+[#0005 I 2026-09-18T12:41:45.582013+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup scheduled after first frame
+[#0006 I 2026-09-18T12:41:46.241377+08:00] network_change{previous={types=[unknown], primaryType=unknown, capturedAt=}, current={types=[cellular, other], primaryType=cellular, capturedAt=2026-09-18T04:41:46.961506Z}}
+[#0007 I 2026-09-18T12:41:45.554052+08:00] step_end app_startup 703ms{step=app_startup, entrypoint=main, startupMode=cold}
+[#0008 I 2026-09-18T12:41:46.270211+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup start
+[#0009 I 2026-09-18T12:41:46.271269+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789706506990
+[#0010 I 2026-09-18T12:41:48.262050+08:00] network_identity{localIp=10.130.69.144, localIpv4=[10.130.69.144, 10.132.155.176, 192.168.10.41, 198.18.0.1, 172.20.10.1], localIpv6=[240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, ... 📷 0010.png
+[#0011 I 2026-09-18T12:41:49.281202+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=1 error=TimeoutException after 0:00:03.000000: Future not completed
+[#0012 I 2026-09-18T12:41:50.287019+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=2 url=https://www.apple.com/library/test/success.html?t=1789706511006 📷 0012.png
+[#0013 I 2026-09-18T12:41:50.628495+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe end attempt=2 statusCode=200 success=true
+[#0014 I 2026-09-18T12:41:50.630086+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup ready attempt=2
+[#0015 I 2026-09-18T12:41:50.652271+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化开始] (+5102ms from start)
+[#0016 I 2026-09-18T12:41:50.678999+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化完成] (+5129ms from start) (+27ms from last)
+[#0017 I 2026-09-18T12:41:50.679365+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+5129ms from start) (+0ms from last)
+[#0018 I 2026-09-18T12:41:50.682164+08:00] log <print>{source=print} :: [WEB LOG] [print] 112312312312
+[#0019 I 2026-09-18T12:41:50.682671+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig setConfigSettings start
+[#0020 I 2026-09-18T12:41:50.688032+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate start
+[#0021 I 2026-09-18T12:41:52.683401+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成 📷 0021.png
+[#0022 I 2026-09-18T12:41:52.698240+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
+[#0023 I 2026-09-18T12:41:52.698747+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╔══════════════════════════════════════════════════╗
+[#0024 I 2026-09-18T12:41:52.699224+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║       📈  性能追踪详细报告                       ║
+[#0025 I 2026-09-18T12:41:52.699598+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╠══════════════════════════════════════════════════╣
+[#0026 I 2026-09-18T12:41:52.700198+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 设备: ios                                       ║
+[#0027 I 2026-09-18T12:41:52.701410+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║
+[#0028 I 2026-09-18T12:41:52.703364+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 当前时间: 2026-09-18 00:41:53.422107            ║
+[#0029 I 2026-09-18T12:41:52.703819+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ ⏱️ 总启动耗时: 7154ms                        ║
+[#0030 I 2026-09-18T12:41:52.704113+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╚══════════════════════════════════════════════════╝
+[#0031 I 2026-09-18T12:41:52.704384+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
+[#0032 I 2026-09-18T12:41:52.704639+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ────
+[#0033 I 2026-09-18T12:41:52.705716+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⚠️ 1. [Firebase初始化开始     ] → T+  5102ms
+[#0034 I 2026-09-18T12:41:52.706018+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⚠️ 2. [Firebase初始化完成     ] → T+  5129ms
+[#0035 I 2026-09-18T12:41:52.706316+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   ⚠️ 3. [启动流程luanchAction开始] → T+  5129ms
+[#0036 I 2026-09-18T12:41:52.706527+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
+[#0037 I 2026-09-18T12:41:52.706814+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
+
+[#0038 I 2026-09-18T12:41:53.114349+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig fetchAndActivate end: true
+[#0039 I 2026-09-18T12:41:53.115113+08:00] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺
+[#0040 I 2026-09-18T12:41:53.116902+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params count = 10
+[#0041 I 2026-09-18T12:41:53.117487+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustEvent_a = kp1kfi (source=valueRemote)
+[#0042 I 2026-09-18T12:41:53.117829+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjustStartEvent = ukwyl1 (source=valueRemote)
+[#0043 I 2026-09-18T12:41:53.118062+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param adjust$1=[REDACTED] (source=valueRemote)
+[#0044 I 2026-09-18T12:41:53.118351+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0045 I 2026-09-18T12:41:53.118658+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v2 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0046 I 2026-09-18T12:41:53.118994+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v3 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0047 I 2026-09-18T12:41:53.119171+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v4 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0048 I 2026-09-18T12:41:53.119330+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v5 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0049 I 2026-09-18T12:41:53.119485+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v6 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0050 I 2026-09-18T12:41:53.119627+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig param remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html (source=valueRemote)
+[#0051 I 2026-09-18T12:41:53.120120+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig all params json:
+{
+  "adjustEvent_a": {
+    "value": "kp1kfi",
+    "source": "valueRemote"
+  },
+  "adjustStartEvent": {
+    "value": "ukwyl1",
+    "source": "valueRemote"
+  },
+  "adjustToken": {
+    "value": "2qmjzeyhbu0w",
+    "source": "valueRemote"
+  },
+  "remoteurl": {
+    "value": "https://cdn.sweep-spin.
+[#0052 I 2026-09-18T12:41:53.120361+08:00] log <print>{source=print} :: com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v2": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v3": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v4": {
+    "value": "http
+[#0053 I 2026-09-18T12:41:53.120567+08:00] log <print>{source=print} :: s://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v5": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v6": {
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  },
+  "remoteurl_v7": {
+[#0054 I 2026-09-18T12:41:53.120738+08:00] log <print>{source=print} :: 
+    "value": "https://cdn.sweep-spin.com/ios_web/release/index.html",
+    "source": "valueRemote"
+  }
+}
+[#0055 I 2026-09-18T12:41:53.120891+08:00] log <print>{source=print} :: [WEB LOG] [print] 🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺🍺
+[#0056 I 2026-09-18T12:41:53.121370+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig remoteurl_v7 = https://cdn.sweep-spin.com/ios_web/release/index.html
+[#0057 I 2026-09-18T12:41:53.121568+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+7572ms from start) (+2442ms from last)
+[#0058 I 2026-09-18T12:41:53.121945+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase initialization luanchAction info=https://cdn.sweep-spin.com/ios_web/release/index.html
+[#0059 I 2026-09-18T12:41:53.122410+08:00] log <print>{source=print} :: [WEB LOG] [print] adjustInfo notify cocos enabled=true
+[#0060 I 2026-09-18T12:41:53.122952+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig forceNeedInstallInfo = false
+[#0061 I 2026-09-18T12:41:53.123320+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+7573ms from start) (+1ms from last)
+[#0062 I 2026-09-18T12:41:53.129581+08:00] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: SDK initialized successfully
+[#0063 I 2026-09-18T12:41:53.130688+08:00] log <print>{source=print} :: [WEB LOG] [print] AppsFlyer afDevKey or appId is not available
+[#0064 I 2026-09-18T12:41:53.130855+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+7581ms from start) (+7ms from last)
+[#0065 I 2026-09-18T12:41:53.131311+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig adjustStartEvent = ukwyl1, apfStartEvent = 
+[#0066 I 2026-09-18T12:41:53.132875+08:00] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Simple event tracked: kp1kfi
+[#0067 I 2026-09-18T12:41:53.833880+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [SDK IDs并行获取完成] (+8284ms from start) (+702ms from last)
+[#0068 I 2026-09-18T12:41:53.835881+08:00] log <print>{source=print} :: [WEB LOG] [print] results [c15d0c6879bb29178117dac7ae79be3d, , ]
+[#0069 I 2026-09-18T12:41:53.840055+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig: _isWhiteByName iPhone
+[#0070 I 2026-09-18T12:41:53.840491+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig: not in whitelist
+[#0071 I 2026-09-18T12:41:53.841001+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig: getSource false
+[#0072 I 2026-09-18T12:41:53.841845+08:00] log <print>{source=print} :: [WEB LOG] [print] Firebase RemoteConfig maxRetry = 200
+[#0073 I 2026-09-18T12:41:53.842140+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [⏳ 开始等待Adjust ValidIds] (+8292ms from start) (+8ms from last)
+[#0074 I 2026-09-18T12:41:53.843154+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [✅ Adjust ValidIds等待结束] (+8293ms from start) (+1ms from last)
+[#0075 I 2026-09-18T12:41:53.843493+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [🎯 所有SDK归因数据就绪] (+8294ms from start) (+0ms from last)
+[#0076 I 2026-09-18T12:41:53.844718+08:00] log <print>{source=print} :: [WEB LOG] [print] Attribution ready snapshot:
+{
+  "stage": "after_wait_valid_ids",
+  "source": false,
+  "forceNeedInstallInfo": false,
+  "assertInstallInfoNotNull": false,
+  "maxRetry": 200,
+  "adjust": {
+    "hasConfig": true,
+    "ajid": "c15d0c6879bb29178117dac7ae79be3d",
+    "ajidReady": true,
+    "ajDataReady": false,
+    "ajData": ""
+  },
+  "a
+[#0077 I 2026-09-18T12:41:53.845093+08:00] log <print>{source=print} :: ppsflyer": {
+    "hasConfig": false,
+    "afid": "",
+    "afidReady": false,
+    "afDataReady": false,
+    "afData": ""
+  }
+}
+[#0078 I 2026-09-18T12:41:53.845561+08:00] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Simple event tracked: ukwyl1
+[#0079 I 2026-09-18T12:41:53.847610+08:00] log <print>{source=print} :: [WEB LOG] [print] results url=https://cdn.sweep-spin.com/ios_web/release/index.html
+[#0080 I 2026-09-18T12:41:53.848395+08:00] log <print>{source=print} :: [WEB LOG] [print] DeepLink scheme data: {}
+[#0081 I 2026-09-18T12:41:53.853172+08:00] log <print>{source=print} :: [WEB LOG] [print] Launch deviceInfo json:
+{
+  "device_brand": "Apple",
+  "device_model": "iPhone14,7",
+  "language": "en_CN",
+  "user_agent": "Mozilla/5.0",
+  "platform": "ios",
+  "udid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "country_code": "en_CN",
+  "liuhai_height": 47.0,
+  "orientation": "landscape",
+  "systemVersion": "16.3.1",
+  "saferect"
+[#0082 I 2026-09-18T12:41:53.853507+08:00] log <print>{source=print} :: : "47.0,47.0,47.0,21.0",
+  "afid": "",
+  "idfa": "",
+  "idfv": "5E7CDF9D-F655-4F05-99E5-A95AE1109E13",
+  "uuid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "idfv_keychain": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "adjustid": "c15d0c6879bb29178117dac7ae79be3d",
+  "google_adid": "",
+  "adjust_installInfo": "",
+  "gp_referrer": "",
+  "bundleId": "com
+[#0083 I 2026-09-18T12:41:53.853698+08:00] log <print>{source=print} :: .unitytest.007",
+  "afdata": {},
+  "timeZoneName": "EDT",
+  "cpuCores": 6,
+  "isAllowedNoti": false,
+  "versionCode": "15",
+  "version": "15",
+  "versionName": "1.0.8",
+  "scheme": {},
+  "langue_record": []
+}
+[#0084 I 2026-09-18T12:41:53.854423+08:00] log <print>{source=print} :: [WEB LOG] [print] ~~~~~~~~results url=https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C21.0&afi
+[#0085 I 2026-09-18T12:41:53.854607+08:00] log <print>{source=print} :: d&idfa&idfv=5E7CDF9D-F655-4F05-99E5-A95AE1109E13&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionN
+[#0086 I 2026-09-18T12:41:53.854769+08:00] log <print>{source=print} :: ame=1.0.8&scheme=%7B%7D&langue_record=%5B%5D
+[#0087 I 2026-09-18T12:41:53.857682+08:00] log <print>{source=print} :: [WEB LOG] [print] Merged launch url: https://cdn.sweep-spin.com/ios_web/release/index.html
+[#0088 I 2026-09-18T12:41:53.857867+08:00] log <print>{source=print} :: [WEB LOG] [print] Merged launch query:
+{
+  "device_brand": "Apple",
+  "device_model": "iPhone14,7",
+  "language": "en_CN",
+  "user_agent": "Mozilla/5.0",
+  "platform": "ios",
+  "udid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "country_code": "en_CN",
+  "liuhai_height": "47.0",
+  "orientation": "landscape",
+  "systemVersion": "16.3.1",
+  "saferect":
+[#0089 I 2026-09-18T12:41:53.858013+08:00] log <print>{source=print} ::  "47.0,47.0,47.0,21.0",
+  "afid": "",
+  "idfa": "",
+  "idfv": "5E7CDF9D-F655-4F05-99E5-A95AE1109E13",
+  "uuid": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "idfv_keychain": "015D8F3E-46AE-4DEC-93DC-273457DD41C9",
+  "adjustid": "c15d0c6879bb29178117dac7ae79be3d",
+  "google_adid": "",
+  "adjust_installInfo": "",
+  "gp_referrer": "",
+  "bundleId": "com.
+[#0090 I 2026-09-18T12:41:53.858129+08:00] log <print>{source=print} :: unitytest.007",
+  "afdata": "{}",
+  "timeZoneName": "EDT",
+  "cpuCores": "6",
+  "isAllowedNoti": "false",
+  "versionCode": "15",
+  "version": "15",
+  "versionName": "1.0.8",
+  "scheme": "{}",
+  "langue_record": "[]"
+}
+[#0091 I 2026-09-18T12:41:53.872354+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+8322ms from start) (+28ms from last)
+[#0092 I 2026-09-18T12:41:53.885792+08:00] log <print>{source=print} :: [WEB LOG] [deal] HallController remoteUrl=>  https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C2
+[#0093 I 2026-09-18T12:41:53.885948+08:00] log <print>{source=print} :: 1.0&afid&idfa&idfv=5E7CDF9D-F655-4F05-99E5-A95AE1109E13&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&v
+[#0094 I 2026-09-18T12:41:53.886046+08:00] log <print>{source=print} :: ersionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D
+[#0095 I 2026-09-18T12:41:53.886157+08:00] log <print>{source=print} :: [WEB LOG] [deal] HallController codeWhenLoadedCompleted=>  
+[#0096 I 2026-09-18T12:41:53.886282+08:00] log <print>{source=print} :: [WEB LOG] [deal] HallController schemeData=>  {}
+[#0097 I 2026-09-18T12:41:53.938970+08:00] log <print>{source=print} :: [WEB LOG] [print] [AdjustManager]: Session success: 
+[#0098 I 2026-09-18T12:41:53.957769+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  bind native onEngagelabRegistrationId callback
+[#0099 I 2026-09-18T12:41:53.958270+08:00] log <print>{source=print} :: [WEB LOG] [deal] _getHandlerName winnerNative
+[#0100 I 2026-09-18T12:41:53.958433+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo cache not ready reason=hall_bind {ajid: c15d0c6879bb29178117dac7ae79be3d, ajData: , afid: , afData: }
+[#0101 I 2026-09-18T12:41:56.113774+08:00] log <print>{source=print} :: [WEB LOG] [deal] HallController sending scheme to JS: {} 📷 0101.png
+[#0102 I 2026-09-18T12:41:56.183228+08:00] log <print>{source=print} :: [WEB LOG] [print] xxxxxxxx loop adid=== c15d0c6879bb29178117dac7ae79be3d
+[#0103 I 2026-09-18T12:41:56.274140+08:00] log <print>{source=print} :: [WEB LOG] [webview] onLoadStart: https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C21.0&afid&idf
+[#0104 I 2026-09-18T12:41:56.274690+08:00] log <print>{source=print} :: a&idfv=5E7CDF9D-F655-4F05-99E5-A95AE1109E13&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1
+[#0105 I 2026-09-18T12:41:56.274752+08:00] log <print>{source=print} :: .0.8&scheme=%7B%7D&langue_record=%5B%5D
+[#0106 I 2026-09-18T12:41:57.393546+08:00] log <print>{source=print} :: [WEB LOG] [deal] _getHandlerName winnerNative
+[#0107 I 2026-09-18T12:41:57.394312+08:00] log <print>{source=print} :: [WEB LOG] [deal] _getHandlerName winnerNative
+[#0108 I 2026-09-18T12:41:57.404808+08:00] log <print>{source=print} :: [WEB LOG] [webview] ERROR: JavaScript execution returned a result of an unsupported type
+[#0109 I 2026-09-18T12:41:57.988912+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] resolve branch: urlParams (uuid+bundleId+version in URL)
+[#0110 I 2026-09-18T12:41:57.990477+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] startFromUrlParams bundle= com.unitytest.007 uuid(len)= 36 version= 15
+[#0111 I 2026-09-18T12:41:57.991984+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve POST https://api.sweep-spin.com/api/version/resolve bundle_id= com.unitytest.007 version= 15 udid= 015D8F3E-46A…(len=36)
+[#0112 I 2026-09-18T12:41:58.832908+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve HTTP ok= true status= 200 bodyLen= 103 📷 0112.png
+[#0113 I 2026-09-18T12:41:58.936161+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve body code= 0 data.url=  message= success
+[#0114 I 2026-09-18T12:41:58.936531+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve code=0 but data.url empty → white list 不会生效，boot 将回退 version.json
+[#0115 I 2026-09-18T12:41:58.936742+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve OK → wrote LS spinergy_whiteVersion_Hall =  readBack= 
+[#0116 I 2026-09-18T12:41:58.936915+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] after resolve step settled, result= {"ok":true,"url":"","version":"15","baseUrl":"https://api.sweep-spin.com"}
+[#0117 I 2026-09-18T12:41:58.937099+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy] page url: https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C
+[#0118 I 2026-09-18T12:41:58.937178+08:00] log <print>{source=print} :: 21.0&afid&idfa&idfv=5E7CDF9D-F655-4F05-99E5-A95AE1109E13&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&
+[#0119 I 2026-09-18T12:41:58.937240+08:00] log <print>{source=print} :: versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D
+[#0120 I 2026-09-18T12:41:58.937381+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy] query (?…): [object Object]
+[#0121 I 2026-09-18T12:41:58.937542+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy] page_url msg1 (bundleId/uuid/version): {"bundleId":"com.unitytest.007","uuid":"015D8F3E-46AE-4DEC-93DC-273457DD41C9","version":"15"}
+[#0122 I 2026-09-18T12:41:58.937739+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] resolveBootVersion LS spinergy_whiteVersion_Hall = (empty) → fetch version.json
+[#0123 I 2026-09-18T12:41:59.228277+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName v0=  354.0.5
+[#0124 I 2026-09-18T12:41:59.230271+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName s0=  354.0.5
+[#0125 I 2026-09-18T12:41:59.231521+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName m=  354-0-5
+[#0126 I 2026-09-18T12:41:59.233130+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] boot versionDir=%s source=%s 354-0-5 version.json
+[#0127 I 2026-09-18T12:42:02.560537+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: Warning 9200, please go to https://github.com/cocos-creator/engine/blob/master/EngineErrorMap.md#9200 to see details. 📷 0127.png
+[#0128 I 2026-09-18T12:42:05.494206+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: Cocos Creator v2.4.9 📷 0128.png
+[#0129 I 2026-09-18T12:42:08.732551+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: web调用原生 [object Object] 📷 0129.png
+[#0130 I 2026-09-18T12:42:08.887313+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object]
+[#0131 I 2026-09-18T12:42:08.888011+08:00] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"cc_init_complete"}
+[#0132 I 2026-09-18T12:42:08.889602+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"cc_init_complete"}
+[#0133 I 2026-09-18T12:42:08.889719+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false
+[#0134 I 2026-09-18T12:42:08.889803+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = false
+[#0135 I 2026-09-18T12:42:08.889878+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'
+[#0136 I 2026-09-18T12:42:08.889925+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 52
+[#0137 I 2026-09-18T12:42:08.889985+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully
+[#0138 I 2026-09-18T12:42:08.890032+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: cc_init_complete}
+[#0139 I 2026-09-18T12:42:08.890084+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=cc_init_complete, data=null, jsonLength=52
+[#0140 I 2026-09-18T12:42:08.890127+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=cc_init_complete, data=null
+[#0141 I 2026-09-18T12:42:08.890178+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = Null
+[#0142 I 2026-09-18T12:42:08.890225+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  CC_INIT_COMPLETE case matched
+[#0143 I 2026-09-18T12:42:08.890540+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: web调用原生 [object Object]
+[#0144 I 2026-09-18T12:42:08.890909+08:00] log <print>{source=print} :: [WEB LOG] [webview] LOG: JSBridge postMessage 1 : [object Object]
+[#0145 I 2026-09-18T12:42:08.891120+08:00] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"keep_screen_on","data":1}
+[#0146 I 2026-09-18T12:42:08.891176+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"keep_screen_on","data":1}
+[#0147 I 2026-09-18T12:42:08.891222+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false
+[#0148 I 2026-09-18T12:42:08.891267+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = true
+[#0149 I 2026-09-18T12:42:08.891312+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'
+[#0150 I 2026-09-18T12:42:08.891356+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59
+[#0151 I 2026-09-18T12:42:08.891409+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully
+[#0152 I 2026-09-18T12:42:08.891458+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1}
+[#0153 I 2026-09-18T12:42:08.891505+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59
+[#0154 I 2026-09-18T12:42:08.891549+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1
+[#0155 I 2026-09-18T12:42:08.891596+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int
+[#0156 I 2026-09-18T12:42:08.891647+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched
+[#0157 I 2026-09-18T12:42:08.891691+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <===
+[#0158 I 2026-09-18T12:42:08.891843+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: Spinergy_GameDebug = null
+[#0159 I 2026-09-18T12:42:08.891974+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: initTaHandEvent =  [object Object]
+[#0160 I 2026-09-18T12:42:08.893608+08:00] log <print>{source=print} :: [WEB LOG] [print] HallJsCall.sendDeviceInfo scheme 参数: {}
+[#0161 I 2026-09-18T12:42:08.893738+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  sendDeviceInfo {device_brand: Apple, device_model: iPhone14,7, language: en_CN, user_agent: Mozilla/5.0, platform: ios, udid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, country_code: en_CN, liuhai_height: 47.0, orientation: landscape, systemVersion: 16.3.1, saferect: 47.0,47.0,47.0,21.0, afid: , idfa: , idfv: 5E7CDF9D-F655-4F05-9
+[#0162 I 2026-09-18T12:42:08.893807+08:00] log <print>{source=print} :: 9E5-A95AE1109E13, uuid: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, idfv_keychain: 015D8F3E-46AE-4DEC-93DC-273457DD41C9, adjustid: c15d0c6879bb29178117dac7ae79be3d, google_adid: , adjust_installInfo: , gp_referrer: , bundleId: com.unitytest.007, afdata: {}, timeZoneName: EDT, cpuCores: 6, isAllowedNoti: false, versionCode: 15, version: 15, versionName: 1
+[#0163 I 2026-09-18T12:42:08.893854+08:00] log <print>{source=print} :: .0.8, scheme: {}, langue_record: []}
+[#0164 I 2026-09-18T12:42:08.894077+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  sendDeviceInfo 2 script window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape
+[#0165 I 2026-09-18T12:42:08.894155+08:00] log <print>{source=print} :: \",\"systemVersion\":\"16.3.1\",\"saferect\":\"47.0,47.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"\",\"idfv\":\"5E7CDF9D-F655-4F05-99E5-A95AE1109E13\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"adjust_installInfo\":
+[#0166 I 2026-09-18T12:42:08.894208+08:00] log <print>{source=print} :: \"\",\"gp_referrer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8\",\"scheme\":{},\"langue_record\":[]}"')
+[#0167 I 2026-09-18T12:42:08.894354+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 1 window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape\",\"systemVers
+[#0168 I 2026-09-18T12:42:08.894413+08:00] log <print>{source=print} :: ion\":\"16.3.1\",\"saferect\":\"47.0,47.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"\",\"idfv\":\"5E7CDF9D-F655-4F05-99E5-A95AE1109E13\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"adjust_installInfo\":\"\",\"gp_refer
+[#0169 I 2026-09-18T12:42:08.894632+08:00] log <print>{source=print} :: rer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8\",\"scheme\":{},\"langue_record\":[]}"')
+[#0170 I 2026-09-18T12:42:08.896732+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 2 window.NativeToCocos.returnDeviceInfo('"{\"device_brand\":\"Apple\",\"device_model\":\"iPhone14,7\",\"language\":\"en_CN\",\"user_agent\":\"Mozilla/5.0\",\"platform\":\"ios\",\"udid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"country_code\":\"en_CN\",\"liuhai_height\":47.0,\"orientation\":\"landscape\",\"systemVers
+[#0171 I 2026-09-18T12:42:08.896917+08:00] log <print>{source=print} :: ion\":\"16.3.1\",\"saferect\":\"47.0,47.0,47.0,21.0\",\"afid\":\"\",\"idfa\":\"\",\"idfv\":\"5E7CDF9D-F655-4F05-99E5-A95AE1109E13\",\"uuid\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"idfv_keychain\":\"015D8F3E-46AE-4DEC-93DC-273457DD41C9\",\"adjustid\":\"c15d0c6879bb29178117dac7ae79be3d\",\"google_adid\":\"\",\"adjust_installInfo\":\"\",\"gp_refer
+[#0172 I 2026-09-18T12:42:08.897005+08:00] log <print>{source=print} :: rer\":\"\",\"bundleId\":\"com.unitytest.007\",\"afdata\":{},\"timeZoneName\":\"EDT\",\"cpuCores\":6,\"isAllowedNoti\":false,\"versionCode\":\"15\",\"version\":\"15\",\"versionName\":\"1.0.8\",\"scheme\":{},\"langue_record\":[]}"')
+[#0173 I 2026-09-18T12:42:08.897067+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <===
+[#0174 I 2026-09-18T12:42:08.899945+08:00] log <print>{source=print} :: [WEB LOG] [webview] Received JSBridge call: {"origin":"winner_game","method":"keep_screen_on","data":1}
+[#0175 I 2026-09-18T12:42:08.900010+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall START ===> {"origin":"winner_game","method":"keep_screen_on","data":1}
+[#0176 I 2026-09-18T12:42:08.900051+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _isGamePage = false
+[#0177 I 2026-09-18T12:42:08.900095+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _hasInit = true
+[#0178 I 2026-09-18T12:42:08.900136+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: _controller = Instance of 'InAppWebViewController'
+[#0179 I 2026-09-18T12:42:08.900174+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: jsonStr length = 59
+[#0180 I 2026-09-18T12:42:08.900222+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: JSON decoded successfully
+[#0181 I 2026-09-18T12:42:08.900261+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: decoded params = {origin: winner_game, method: keep_screen_on, data: 1}
+[#0182 I 2026-09-18T12:42:08.900302+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  ========== HALL_JS_CALL_METHOD ========== origin=winner_game, method=keep_screen_on, data=1, jsonLength=59
+[#0183 I 2026-09-18T12:42:08.900342+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: parsed cmd=keep_screen_on, data=1
+[#0184 I 2026-09-18T12:42:08.900380+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall: cmd type = String, data type = int
+[#0185 I 2026-09-18T12:42:08.900419+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  KEEP_SCREEN_ON case matched
+[#0186 I 2026-09-18T12:42:08.900455+08:00] log <print>{source=print} :: [WEB LOG] [deal] inHall  handleJsCall END <===
+[#0187 I 2026-09-18T12:42:09.000+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: getConfigs msg===> [object Object]
+[#0188 I 2026-09-18T12:42:09.001391+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: ___send = {"bundle_id":"com.unitytest.007","udid":"015D8F3E-46AE-4DEC-93DC-273457DD41C9","version":354,"ver":"v3.5.4","referer":"https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&cou
+[#0189 I 2026-09-18T12:42:09.001642+08:00] log <print>{source=print} :: ntry_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C47.0%2C47.0%2C21.0&afid&idfa&idfv=5E7CDF9D-F655-4F05-99E5-A95AE1109E13&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleI
+[#0190 I 2026-09-18T12:42:09.001746+08:00] log <print>{source=print} :: d=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D","timestamp":1789706529,"signature":"9d2722141b0af517a80091eb267466b0722d622a"}
+
+============================================================
+end of report
