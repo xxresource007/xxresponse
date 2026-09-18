@@ -3,8 +3,8 @@ xxresponse session report
 
 Session  : 20260918065328109036-4837e4
 Schema   : v1
-Created  : 2026-09-18T14:53:27.159435+08:00
-Updated  : 2026-09-18T14:53:47.180483+08:00
+Created  : 2026-09-18T14:53:27.289296+08:00
+Updated  : 2026-09-18T14:55:47.308675+08:00
 Clock    : China Standard Time (UTC+08:00), server-calibrated
 
 ── App ─────────────────────────────────────────────────
@@ -25,7 +25,7 @@ Physical      : yes
 Type at startup: cellular
 Local IP      : 10.130.69.144
 Local IPv6    : 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, 240a:42c0:1812:d38d:9d24:887d:a33f:3eb, 240a:42c0:1812:d38d:f400:d1c5:194d:25ad, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, fd00:1234:ffff::10
-Captured      : 2026-09-18T14:53:27.668101+08:00
+Captured      : 2026-09-18T14:53:27.797962+08:00
 
 ── Upload ──────────────────────────────────────────────
 Requested     : yes
@@ -35,63 +35,63 @@ Branch        : main
 Directory     : logs
 
 ── Events (56) ────────────────────────────
-[#0001 I 2026-09-18T14:53:27.159435+08:00] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
-[#0002 I 2026-09-18T14:53:27.179661+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
-[#0003 I 2026-09-18T14:53:27.194580+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup scheduled after first frame
-[#0004 I 2026-09-18T14:53:27.663839+08:00] network_change{previous={types=[unknown], primaryType=unknown, capturedAt=}, current={types=[none], primaryType=none, capturedAt=2026-09-18T06:53:28.613371Z}}
-[#0005 I 2026-09-18T14:53:27.668520+08:00] network_identity{localIp=10.130.69.144, localIpv4=[10.130.69.144, 10.132.155.176, 192.168.10.41, 198.18.0.1, 172.20.10.1], localIpv6=[240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, ...
-[#0006 I 2026-09-18T14:53:27.711531+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup start
-[#0007 I 2026-09-18T14:53:27.712432+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789714408661
-[#0008 I 2026-09-18T14:53:27.726227+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=1 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0009 I 2026-09-18T14:53:28.729344+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=2 url=https://www.apple.com/library/test/success.html?t=1789714409678
-[#0010 I 2026-09-18T14:53:28.757475+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=2 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0011 I 2026-09-18T14:53:29.760994+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=3 url=https://www.apple.com/library/test/success.html?t=1789714410710 📷 0011.png
-[#0012 I 2026-09-18T14:53:29.883070+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=3 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0013 I 2026-09-18T14:53:30.885676+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=4 url=https://www.apple.com/library/test/success.html?t=1789714411834
-[#0014 I 2026-09-18T14:53:30.904103+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=4 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0015 I 2026-09-18T14:53:31.908034+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=5 url=https://www.apple.com/library/test/success.html?t=1789714412857 📷 0015.png
-[#0016 I 2026-09-18T14:53:32.021213+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=5 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0017 I 2026-09-18T14:53:33.023320+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=6 url=https://www.apple.com/library/test/success.html?t=1789714413972
-[#0018 I 2026-09-18T14:53:33.039762+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=6 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0019 I 2026-09-18T14:53:34.044+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=7 url=https://www.apple.com/library/test/success.html?t=1789714414993 📷 0019.png
-[#0020 I 2026-09-18T14:53:34.151993+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=7 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0021 I 2026-09-18T14:53:35.154836+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=8 url=https://www.apple.com/library/test/success.html?t=1789714416104
-[#0022 I 2026-09-18T14:53:35.172263+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=8 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0023 I 2026-09-18T14:53:36.175721+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=9 url=https://www.apple.com/library/test/success.html?t=1789714417125 📷 0023.png
-[#0024 I 2026-09-18T14:53:36.287660+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=9 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8)
-[#0025 I 2026-09-18T14:53:37.073208+08:00] network_change{previous={types=[none], primaryType=none, capturedAt=2026-09-18T06:53:28.663085Z}, current={types=[cellular, other], primaryType=cellular, capturedAt=2026-09-18T06:53:38.022612Z}}
-[#0026 I 2026-09-18T14:53:37.290889+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=10 url=https://www.apple.com/library/test/success.html?t=1789714418240
-[#0027 I 2026-09-18T14:53:38.499788+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe end attempt=10 statusCode=200 success=true 📷 0027.png
-[#0028 I 2026-09-18T14:53:38.508228+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup ready attempt=10
-[#0029 I 2026-09-18T14:53:38.592956+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化开始] (+11413ms from start)
-[#0030 I 2026-09-18T14:53:38.608162+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化完成] (+11428ms from start) (+15ms from last)
-[#0031 I 2026-09-18T14:53:38.608311+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+11428ms from start) (+0ms from last)
-[#0032 I 2026-09-18T14:53:40.612288+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成 📷 0032.png
-[#0033 I 2026-09-18T14:53:40.629334+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
-[#0034 I 2026-09-18T14:53:40.629660+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╔══════════════════════════════════════════════════╗
-[#0035 I 2026-09-18T14:53:40.629981+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║       📈  性能追踪详细报告                       ║
-[#0036 I 2026-09-18T14:53:40.630274+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╠══════════════════════════════════════════════════╣
-[#0037 I 2026-09-18T14:53:40.630763+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 设备: ios                                       ║
-[#0038 I 2026-09-18T14:53:40.633220+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║
-[#0039 I 2026-09-18T14:53:40.634267+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 当前时间: 2026-09-18 02:53:41.583258            ║
-[#0040 I 2026-09-18T14:53:40.634633+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ ⏱️ 总启动耗时: 13455ms                       ║
-[#0041 I 2026-09-18T14:53:40.634893+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╚══════════════════════════════════════════════════╝
-[#0042 I 2026-09-18T14:53:40.635201+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
-[#0043 I 2026-09-18T14:53:40.635482+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ────
-[#0044 I 2026-09-18T14:53:40.636310+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 1. [Firebase初始化开始     ] → T+ 11413ms
-[#0045 I 2026-09-18T14:53:40.636676+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 2. [Firebase初始化完成     ] → T+ 11428ms
-[#0046 I 2026-09-18T14:53:40.636965+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 3. [启动流程luanchAction开始] → T+ 11428ms
-[#0047 I 2026-09-18T14:53:40.637204+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 
-[#0048 I 2026-09-18T14:53:40.637567+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
-
-[#0049 I 2026-09-18T14:53:43.475062+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+16295ms from start) (+4866ms from last) 📷 0049.png
-[#0050 I 2026-09-18T14:53:43.476454+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+16296ms from start) (+1ms from last)
-[#0051 I 2026-09-18T14:53:43.554212+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+16374ms from start) (+77ms from last)
-[#0052 I 2026-09-18T14:53:44.558958+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [SDK IDs并行获取完成] (+17379ms from start) (+1004ms from last)
-[#0053 I 2026-09-18T14:53:44.564436+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [⏳ 开始等待Adjust ValidIds] (+17384ms from start) (+5ms from last)
-[#0054 I 2026-09-18T14:53:44.565353+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [✅ Adjust ValidIds等待结束] (+17385ms from start) (+0ms from last)
-[#0055 I 2026-09-18T14:53:44.565692+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [🎯 所有SDK归因数据就绪] (+17386ms from start) (+0ms from last)
-[#0056 I 2026-09-18T14:53:44.591013+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+17411ms from start) (+25ms from last)
+[#0001 I 2026-09-18T14:53:27.289296+08:00] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
+[#0002 I 2026-09-18T14:53:27.309522+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
+[#0003 I 2026-09-18T14:53:27.324441+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup scheduled after first frame 📷 0003.png
+[#0004 I 2026-09-18T14:53:27.793700+08:00] network_change{previous={types=[unknown], primaryType=unknown, capturedAt=}, current={types=[none], primaryType=none, capturedAt=2026-09-18T06:53:28.613371Z}} 📷 0004.png
+[#0005 I 2026-09-18T14:53:27.798381+08:00] network_identity{localIp=10.130.69.144, localIpv4=[10.130.69.144, 10.132.155.176, 192.168.10.41, 198.18.0.1, 172.20.10.1], localIpv6=[240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, ... 📷 0005.png
+[#0006 I 2026-09-18T14:53:27.841392+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup start 📷 0006.png
+[#0007 I 2026-09-18T14:53:27.842293+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789714408661 📷 0007.png
+[#0008 I 2026-09-18T14:53:27.856088+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=1 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0008.png
+[#0009 I 2026-09-18T14:53:28.859205+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=2 url=https://www.apple.com/library/test/success.html?t=1789714409678 📷 0009.png
+[#0010 I 2026-09-18T14:53:28.887336+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=2 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0010.png
+[#0011 I 2026-09-18T14:53:29.890855+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=3 url=https://www.apple.com/library/test/success.html?t=1789714410710 📷 0011.png
+[#0012 I 2026-09-18T14:53:30.012931+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=3 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0012.png
+[#0013 I 2026-09-18T14:53:31.015537+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=4 url=https://www.apple.com/library/test/success.html?t=1789714411834 📷 0013.png
+[#0014 I 2026-09-18T14:53:31.033964+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=4 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0014.png
+[#0015 I 2026-09-18T14:53:32.037895+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=5 url=https://www.apple.com/library/test/success.html?t=1789714412857 📷 0015.png
+[#0016 I 2026-09-18T14:53:32.151074+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=5 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0016.png
+[#0017 I 2026-09-18T14:53:33.153181+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=6 url=https://www.apple.com/library/test/success.html?t=1789714413972 📷 0017.png
+[#0018 I 2026-09-18T14:53:33.169623+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=6 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0018.png
+[#0019 I 2026-09-18T14:53:34.173861+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=7 url=https://www.apple.com/library/test/success.html?t=1789714414993 📷 0019.png
+[#0020 I 2026-09-18T14:53:34.281854+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=7 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0020.png
+[#0021 I 2026-09-18T14:53:35.284697+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=8 url=https://www.apple.com/library/test/success.html?t=1789714416104 📷 0021.png
+[#0022 I 2026-09-18T14:53:35.302124+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=8 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0022.png
+[#0023 I 2026-09-18T14:53:36.305582+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=9 url=https://www.apple.com/library/test/success.html?t=1789714417125 📷 0023.png
+[#0024 I 2026-09-18T14:53:36.417521+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=9 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0024.png
+[#0025 I 2026-09-18T14:53:37.203069+08:00] network_change{previous={types=[none], primaryType=none, capturedAt=2026-09-18T06:53:28.663085Z}, current={types=[cellular, other], primaryType=cellular, capturedAt=2026-09-18T06:53:38.022612Z}} 📷 0025.png
+[#0026 I 2026-09-18T14:53:37.420750+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=10 url=https://www.apple.com/library/test/success.html?t=1789714418240 📷 0026.png
+[#0027 I 2026-09-18T14:53:38.629649+08:00] log <debugPrint>{source=debugPrint} :: Network authorization probe end attempt=10 statusCode=200 success=true 📷 0027.png
+[#0028 I 2026-09-18T14:53:38.638089+08:00] log <debugPrint>{source=debugPrint} :: Network authorization warmup ready attempt=10 📷 0028.png
+[#0029 I 2026-09-18T14:53:38.722817+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化开始] (+11413ms from start) 📷 0029.png
+[#0030 I 2026-09-18T14:53:38.738023+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase初始化完成] (+11428ms from start) (+15ms from last) 📷 0030.png
+[#0031 I 2026-09-18T14:53:38.738172+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction开始] (+11428ms from start) (+0ms from last) 📷 0031.png
+[#0032 I 2026-09-18T14:53:40.742149+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ⚠️ [PERF] 警告: 未找到开始时间的操作: ⏱️ App启动→全部完成 📷 0032.png
+[#0033 I 2026-09-18T14:53:40.759195+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0033.png
+[#0034 I 2026-09-18T14:53:40.759521+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╔══════════════════════════════════════════════════╗ 📷 0034.png
+[#0035 I 2026-09-18T14:53:40.759842+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║       📈  性能追踪详细报告                       ║ 📷 0035.png
+[#0036 I 2026-09-18T14:53:40.760135+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╠══════════════════════════════════════════════════╣ 📷 0036.png
+[#0037 I 2026-09-18T14:53:40.760624+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 设备: ios                                       ║ 📷 0037.png
+[#0038 I 2026-09-18T14:53:40.763081+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 系统版本: Version 16.3.1 (Build 20D67)        ║ 📷 0038.png
+[#0039 I 2026-09-18T14:53:40.764128+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ 当前时间: 2026-09-18 02:53:41.583258            ║ 📷 0039.png
+[#0040 I 2026-09-18T14:53:40.764494+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ║ ⏱️ 总启动耗时: 13455ms                       ║ 📷 0040.png
+[#0041 I 2026-09-18T14:53:40.764754+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ╚══════════════════════════════════════════════════╝ 📷 0041.png
+[#0042 I 2026-09-18T14:53:40.765062+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0042.png
+[#0043 I 2026-09-18T14:53:40.765343+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 ──── 里程碑时间线 (3个节点) ──── 📷 0043.png
+[#0044 I 2026-09-18T14:53:40.766171+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 1. [Firebase初始化开始     ] → T+ 11413ms 📷 0044.png
+[#0045 I 2026-09-18T14:53:40.766537+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 2. [Firebase初始化完成     ] → T+ 11428ms 📷 0045.png
+[#0046 I 2026-09-18T14:53:40.766826+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]   🚨 3. [启动流程luanchAction开始] → T+ 11428ms 📷 0046.png
+[#0047 I 2026-09-18T14:53:40.767065+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor]  📷 0047.png
+[#0048 I 2026-09-18T14:53:40.767428+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] ──────────────────────────────────────────────
+ 📷 0048.png
+[#0049 I 2026-09-18T14:53:43.604923+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Firebase RemoteConfig 获取完成] (+16295ms from start) (+4866ms from last) 📷 0049.png
+[#0050 I 2026-09-18T14:53:43.606315+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [ATT/KeyChain 初始化完成] (+16296ms from start) (+1ms from last) 📷 0050.png
+[#0051 I 2026-09-18T14:53:43.684073+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [Adjust+AppsFlyer SDK初始化完成] (+16374ms from start) (+77ms from last) 📷 0051.png
+[#0052 I 2026-09-18T14:53:44.688819+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [SDK IDs并行获取完成] (+17379ms from start) (+1004ms from last) 📷 0052.png
+[#0053 I 2026-09-18T14:53:44.694297+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [⏳ 开始等待Adjust ValidIds] (+17384ms from start) (+5ms from last) 📷 0053.png
+[#0054 I 2026-09-18T14:53:44.695214+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [✅ Adjust ValidIds等待结束] (+17385ms from start) (+0ms from last) 📷 0054.png
+[#0055 I 2026-09-18T14:53:44.695553+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [🎯 所有SDK归因数据就绪] (+17386ms from start) (+0ms from last) 📷 0055.png
+[#0056 I 2026-09-18T14:53:44.720874+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 🏁 [启动流程luanchAction结束] (+17411ms from start) (+25ms from last) 📷 0056.png
 
 ============================================================
 end of report
