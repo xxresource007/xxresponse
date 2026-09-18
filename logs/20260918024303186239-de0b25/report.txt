@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918024303186239-de0b25
 Schema   : v1
 Created  : 2026-09-18T02:43:03.186239Z
-Updated  : 2026-09-18T02:43:17.071492Z
+Updated  : 2026-09-18T02:43:21.887237Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (113) ────────────────────────────
+── Events (155) ────────────────────────────
 [#0001 I 2026-09-18T02:43:03.186239Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
 [#0002 I 2026-09-18T02:43:03.224176Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
 [#0003 I 2026-09-18T02:43:03.228788Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
@@ -279,6 +279,103 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#0111 I 2026-09-18T02:43:16.852320Z] log <print>{source=print} :: &idfv=06D57FDD-FA2A-4975-AB0F-6057BE5D6171&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&versionName=1. 📷 0111.png
 [#0112 I 2026-09-18T02:43:16.852375Z] log <print>{source=print} :: 0.8&scheme=%7B%7D&langue_record=%5B%5D 📷 0112.png
 [#0113 I 2026-09-18T02:43:17.060631Z] log <print>{source=print} :: [WEB LOG] [deal] HallController sending scheme to JS: {} 📷 0113.png
+[#0114 I 2026-09-18T02:43:18.281361Z] log <print>{source=print} :: [WEB LOG] [deal] _getHandlerName winnerNative 📷 0114.png
+[#0115 I 2026-09-18T02:43:18.281916Z] log <print>{source=print} :: [WEB LOG] [deal] _getHandlerName winnerNative 📷 0115.png
+[#0116 I 2026-09-18T02:43:18.291984Z] log <print>{source=print} :: [WEB LOG] [webview] ERROR: JavaScript execution returned a result of an unsupported type 📷 0116.png
+[#0117 I 2026-09-18T02:43:18.757627Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] resolve branch: urlParams (uuid+bundleId+version in URL) 📷 0117.png
+[#0118 I 2026-09-18T02:43:18.757996Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] startFromUrlParams bundle= com.unitytest.007 uuid(len)= 36 version= 15 📷 0118.png
+[#0119 I 2026-09-18T02:43:18.758779Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve POST https://api.sweep-spin.com/api/version/resolve bundle_id= com.unitytest.007 version= 15 udid= 015D8F3E-46A…(len=36) 📷 0119.png
+[#0120 I 2026-09-18T02:43:19.678211Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve HTTP ok= true status= 200 bodyLen= 103 📷 0120.png
+[#0121 I 2026-09-18T02:43:19.678548Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve body code= 0 data.url=  message= success 📷 0121.png
+[#0122 I 2026-09-18T02:43:19.678733Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve code=0 but data.url empty → white list 不会生效，boot 将回退 version.json 📷 0122.png
+[#0123 I 2026-09-18T02:43:19.678929Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy:net] resolve OK → wrote LS spinergy_whiteVersion_Hall =  readBack=  📷 0123.png
+[#0124 I 2026-09-18T02:43:19.679138Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] after resolve step settled, result= {"ok":true,"url":"","version":"15","baseUrl":"https://api.sweep-spin.com"} 📷 0124.png
+[#0125 I 2026-09-18T02:43:19.679318Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy] page url: https://cdn.sweep-spin.com/ios_web/release/index.html?device_brand=Apple&device_model=iPhone14%2C7&language=en_CN&user_agent=Mozilla%2F5.0&platform=ios&udid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&country_code=en_CN&liuhai_height=47.0&orientation=landscape&systemVersion=16.3.1&saferect=47.0%2C0.0%2C47.0%2C2 📷 0125.png
+[#0126 I 2026-09-18T02:43:19.679396Z] log <print>{source=print} :: 1.0&afid&idfa&idfv=06D57FDD-FA2A-4975-AB0F-6057BE5D6171&uuid=015D8F3E-46AE-4DEC-93DC-273457DD41C9&idfv_keychain=015D8F3E-46AE-4DEC-93DC-273457DD41C9&adjustid=c15d0c6879bb29178117dac7ae79be3d&google_adid&adjust_installInfo&gp_referrer&bundleId=com.unitytest.007&afdata=%7B%7D&timeZoneName=EDT&cpuCores=6&isAllowedNoti=false&versionCode=15&version=15&v 📷 0126.png
+[#0127 I 2026-09-18T02:43:19.679454Z] log <print>{source=print} :: ersionName=1.0.8&scheme=%7B%7D&langue_record=%5B%5D 📷 0127.png
+[#0128 I 2026-09-18T02:43:19.679581Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy] query (?…): [object Object] 📷 0128.png
+[#0129 I 2026-09-18T02:43:19.679844Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [spinergy] page_url msg1 (bundleId/uuid/version): {"bundleId":"com.unitytest.007","uuid":"015D8F3E-46AE-4DEC-93DC-273457DD41C9","version":"15"} 📷 0129.png
+[#0130 I 2026-09-18T02:43:19.679976Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] resolveBootVersion LS spinergy_whiteVersion_Hall = (empty) → fetch version.json 📷 0130.png
+[#0131 I 2026-09-18T02:43:20.217822Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName v0=  354.0.5 📷 0131.png
+[#0132 I 2026-09-18T02:43:20.218873Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName s0=  354.0.5 📷 0132.png
+[#0133 I 2026-09-18T02:43:20.219606Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: toVersionDirName m=  354-0-5 📷 0133.png
+[#0134 I 2026-09-18T02:43:20.220845Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: [web] boot versionDir=%s source=%s 354-0-5 version.json 📷 0134.png
+[#0135 I 2026-09-18T02:43:21.547800Z] log <print>{source=print} :: [WEB LOG] [print] Adjust attributionCallback  📷 0135.png
+[#0136 I 2026-09-18T02:43:21.549573Z] log <print>{source=print} :: [WEB LOG] [print] Adjust attributionCallback: {"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No  📷 0136.png
+[#0137 I 2026-09-18T02:43:21.549787Z] log <print>{source=print} :: User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null} 📷 0137.png
+[#0138 I 2026-09-18T02:43:21.550789Z] log <print>{source=print} :: [WEB LOG] [print] Adjust _waitForAdjustAttribution  📷 0138.png
+[#0139 I 2026-09-18T02:43:21.551013Z] log <print>{source=print} :: [WEB LOG] [print] Adjust attributionCallback: {"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No  📷 0139.png
+[#0140 I 2026-09-18T02:43:21.552660Z] log <print>{source=print} :: User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null} 📷 0140.png
+[#0141 I 2026-09-18T02:43:21.554641Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo notify reason=adjust before hall init 📷 0141.png
+[#0142 I 2026-09-18T02:43:21.555231Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo notify cocos payload:
+{
+  "ajid": "c15d0c6879bb29178117dac7ae79be3d",
+  "ajData": {
+    "trackerToken": "unattr",
+    "trackerName": "No User Consent",
+    "network": "No User Consent",
+    "campaign": "",
+    "adgroup": "",
+    "creative": "",
+    "clickLabel": "",
+    "costType": "",
+    "costAmount": null,
+     📷 0142.png
+[#0143 I 2026-09-18T02:43:21.555374Z] log <print>{source=print} :: "costCurrency": "",
+    "jsonResponse": "{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}",
+    "fbInstallR 📷 0143.png
+[#0144 I 2026-09-18T02:43:21.555464Z] log <print>{source=print} :: eferrer": null
+  },
+  "afid": "",
+  "afData": ""
+} 📷 0144.png
+[#0145 I 2026-09-18T02:43:21.555565Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo notify cocos script=(function() {
+  try {
+    var payload = {"ajid":"c15d0c6879bb29178117dac7ae79be3d","ajData":{"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonRespon 📷 0145.png
+[#0146 I 2026-09-18T02:43:21.555689Z] log <print>{source=print} :: se":"{\"engagement_time\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null},"afid":"","afData":""};
+   📷 0146.png
+[#0147 I 2026-09-18T02:43:21.555761Z] log <print>{source=print} ::   if (window.NativeToCocos && typeof window.NativeToCocos.adjustInfo === 'function') {
+      window.NativeToCocos.adjustInfo(payload);
+      return 'ok';
+    }
+    return 'missing_handler';
+  } catch (e) {
+    return 'error:' + e;
+  }
+})();
+ 📷 0147.png
+[#0148 I 2026-09-18T02:43:21.556046Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 1 (function() {
+  try {
+    var payload = {"ajid":"c15d0c6879bb29178117dac7ae79be3d","ajData":{"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_tim 📷 0148.png
+[#0149 I 2026-09-18T02:43:21.556144Z] log <print>{source=print} :: e\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null},"afid":"","afData":""};
+    if (window.NativeToC 📷 0149.png
+[#0150 I 2026-09-18T02:43:21.556214Z] log <print>{source=print} :: ocos && typeof window.NativeToCocos.adjustInfo === 'function') {
+      window.NativeToCocos.adjustInfo(payload);
+      return 'ok';
+    }
+    return 'missing_handler';
+  } catch (e) {
+    return 'error:' + e;
+  }
+})();
+ 📷 0150.png
+[#0151 I 2026-09-18T02:43:21.556541Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo skip reason=adjust: already notified 📷 0151.png
+[#0152 I 2026-09-18T02:43:21.557565Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  callJS 2 (function() {
+  try {
+    var payload = {"ajid":"c15d0c6879bb29178117dac7ae79be3d","ajData":{"trackerToken":"unattr","trackerName":"No User Consent","network":"No User Consent","campaign":"","adgroup":"","creative":"","clickLabel":"","costType":"","costAmount":null,"costCurrency":"","jsonResponse":"{\"engagement_tim 📷 0152.png
+[#0153 I 2026-09-18T02:43:21.557676Z] log <print>{source=print} :: e\":\"0001-01-01T00:00:00Z\",\"tracker_token\":\"unattr\",\"tracker_name\":\"No User Consent\",\"is_reattributed\":false,\"is_redownload_install\":true,\"first_session_time\":\"2026-09-15T09:37:24Z\",\"installed_at\":\"2026-09-15T09:37:24Z\",\"network\":\"No User Consent\"}","fbInstallReferrer":null},"afid":"","afData":""};
+    if (window.NativeToC 📷 0153.png
+[#0154 I 2026-09-18T02:43:21.557749Z] log <print>{source=print} :: ocos && typeof window.NativeToCocos.adjustInfo === 'function') {
+      window.NativeToCocos.adjustInfo(payload);
+      return 'ok';
+    }
+    return 'missing_handler';
+  } catch (e) {
+    return 'error:' + e;
+  }
+})();
+ 📷 0154.png
+[#0155 I 2026-09-18T02:43:21.557835Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo notify cocos result=missing_handler 📷 0155.png
 
 ============================================================
 end of report
