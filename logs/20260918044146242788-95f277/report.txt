@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918044146242788-95f277
 Schema   : v1
 Created  : 2026-09-18T12:41:45.522595+08:00
-Updated  : 2026-09-18T12:49:18.998908+08:00
+Updated  : 2026-09-18T12:49:25.517498+08:00
 Clock    : China Standard Time (UTC+08:00), server-calibrated
 
 ── App ─────────────────────────────────────────────────
@@ -42,7 +42,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (196) ────────────────────────────
+── Events (197) ────────────────────────────
 [#0001 I 2026-09-18T12:41:45.522595+08:00] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs}
 [#0002 I 2026-09-18T12:41:45.549660+08:00] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true)
 [#0003 I 2026-09-18T12:41:45.554052+08:00] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold}
@@ -371,6 +371,7 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 [#0194 I 2026-09-18T12:42:15.224715+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : popViewStackChanged 📷 0194.png
 [#0195 I 2026-09-18T12:42:15.382214+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : closeAllPopUIs
 [#0196 I 2026-09-18T12:49:18.845874+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : onClickScreen 📷 0196.png
+[#0197 I 2026-09-18T12:49:19.942082+08:00] log <print>{source=print} :: [WEB LOG] [webview] TIP: emit : L_hideGame
 
 ============================================================
 end of report
