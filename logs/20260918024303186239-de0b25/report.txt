@@ -1,0 +1,61 @@
+xxresponse session report
+============================================================
+
+Session  : 20260918024303186239-de0b25
+Schema   : v1
+Created  : 2026-09-18T02:43:03.186239Z
+Updated  : 2026-09-18T02:43:08.468566Z
+
+── App ─────────────────────────────────────────────────
+Name    : Easy Win Fun
+Package : com.unitytest.007
+Version : 1.0.8 (15)
+
+── Device ──────────────────────────────────────────────
+Platform      : ios
+Model         : iPhone
+Localized     : iPhone
+Machine       : iPhone14,7
+OS            : iOS
+OS version    : 16.3.1
+Physical      : yes
+
+── Network / IP ────────────────────────────────────────
+Type at startup: none
+Local IP      : 10.130.69.144
+Local IPv6    : 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, 240a:42c0:1812:d38d:9d24:887d:a33f:3eb, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:1c17:6e35:18b7:e767, fd00:1234:ffff::10
+Captured      : 2026-09-18T02:43:03.902439Z
+
+── Upload ──────────────────────────────────────────────
+Requested     : yes
+Enabled       : yes
+Repository    : xxresource007/xxresponse
+Branch        : main
+Directory     : logs
+
+── Events (18) ────────────────────────────
+[#0001 I 2026-09-18T02:43:03.186239Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
+[#0002 I 2026-09-18T02:43:03.224176Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
+[#0003 I 2026-09-18T02:43:03.228788Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
+[#0004 E 2026-09-18T02:43:03.242419Z] exception (during runApp){context=during runApp, library=Flutter framework} err={type=FlutterError, message=Zone mismatch.
+The Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuratio... :: Zone mismatch.
+The Flutter bindings were initialized in a different zone than is now being used. This will likely cause confusion and bugs as any zone-specific configuration will inconsistently use the configuration of the original binding initialization zone or this zone based on hard-to-predict factors such as which zone was active when a particular callback was set.
+It is important to use the same zone when calling `ensureInitialized` on the binding as when calling `runApp` later.
+To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true before the bindings are initialized (i.e. as the first statement in `void main() { }`). 📷 0004.png
+[#0005 I 2026-09-18T02:43:03.256534Z] log <debugPrint>{source=debugPrint} :: Network authorization warmup scheduled after first frame 📷 0005.png
+[#0006 I 2026-09-18T02:43:03.228788Z] step_end app_startup 251ms{step=app_startup, entrypoint=main, startupMode=cold} 📷 0006.png
+[#0007 I 2026-09-18T02:43:03.888836Z] log <debugPrint>{source=debugPrint} :: Network authorization warmup start 📷 0007.png
+[#0008 I 2026-09-18T02:43:03.889800Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=1 url=https://www.apple.com/library/test/success.html?t=1789699383889 📷 0008.png
+[#0009 I 2026-09-18T02:43:03.902611Z] network_identity{localIp=10.130.69.144, localIpv4=[10.130.69.144, 10.163.42.246, 192.168.10.41, 198.18.0.1, 172.20.10.1], localIpv6=[240a:42c0:1812:d38d:1c17:6e35:18b7:e767, 240a:42c0:1812:d38d:9de2:916a:50ad:3813, 2... 📷 0009.png
+[#0010 I 2026-09-18T02:43:03.912447Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=1 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0010.png
+[#0011 I 2026-09-18T02:43:04.921035Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=2 url=https://www.apple.com/library/test/success.html?t=1789699384920 📷 0011.png
+[#0012 I 2026-09-18T02:43:04.943372Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=2 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0012.png
+[#0013 I 2026-09-18T02:43:05.946594Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=3 url=https://www.apple.com/library/test/success.html?t=1789699385946 📷 0013.png
+[#0014 I 2026-09-18T02:43:06.055547Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=3 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0014.png
+[#0015 I 2026-09-18T02:43:07.058914Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=4 url=https://www.apple.com/library/test/success.html?t=1789699387058 📷 0015.png
+[#0016 I 2026-09-18T02:43:07.161774Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=4 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0016.png
+[#0017 I 2026-09-18T02:43:08.165004Z] log <debugPrint>{source=debugPrint} :: Network authorization probe start attempt=5 url=https://www.apple.com/library/test/success.html?t=1789699388164 📷 0017.png
+[#0018 I 2026-09-18T02:43:08.278097Z] log <debugPrint>{source=debugPrint} :: Network authorization probe failed attempt=5 error=SocketException: Failed host lookup: 'www.apple.com' (OS Error: nodename nor servname provided, or not known, errno = 8) 📷 0018.png
+
+============================================================
+end of report
