@@ -4,7 +4,7 @@ xxresponse session report
 Session  : 20260918024303186239-de0b25
 Schema   : v1
 Created  : 2026-09-18T02:43:03.186239Z
-Updated  : 2026-09-18T02:43:21.887237Z
+Updated  : 2026-09-18T02:43:24.086729Z
 
 ── App ─────────────────────────────────────────────────
 Name    : Easy Win Fun
@@ -33,7 +33,7 @@ Repository    : xxresource007/xxresponse
 Branch        : main
 Directory     : logs
 
-── Events (155) ────────────────────────────
+── Events (156) ────────────────────────────
 [#0001 I 2026-09-18T02:43:03.186239Z] session_start{uploadRequested=true, uploadEnabled=true, githubRepository=xxresource007/xxresponse, githubDirectory=logs} 📷 0001.png
 [#0002 I 2026-09-18T02:43:03.224176Z] log <debugPrint>{source=debugPrint} :: [PerformanceMonitor] 📊 性能监控系统已启用 (Debug模式: true) 📷 0002.png
 [#0003 I 2026-09-18T02:43:03.228788Z] step_start app_startup{step=app_startup, entrypoint=main, startupMode=cold} 📷 0003.png
@@ -376,6 +376,7 @@ To make this warning fatal, set BindingBase.debugZoneErrorsAreFatal to true befo
 })();
  📷 0154.png
 [#0155 I 2026-09-18T02:43:21.557835Z] log <print>{source=print} :: [WEB LOG] [deal] inHall  adjustInfo notify cocos result=missing_handler 📷 0155.png
+[#0156 I 2026-09-18T02:43:23.786139Z] log <print>{source=print} :: [WEB LOG] [webview] LOG: Warning 9200, please go to https://github.com/cocos-creator/engine/blob/master/EngineErrorMap.md#9200 to see details. 📷 0156.png
 
 ============================================================
 end of report
